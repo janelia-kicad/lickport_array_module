@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name lickport_array_module)(type Legacy)(uri ${KIPRJMOD}/lickport_array_module.lib)(options "")(descr ""))
+  (lib (name solenoid_spike_hold)(type Legacy)(uri ${KIPRJMOD}/solenoid_spike_hold.lib)(options "")(descr ""))
+)
