@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 10
 Title "lickport_array_module"
 Date ""
-Rev "1.3"
+Rev "1.0"
 Comp "Janelia"
 Comment1 ""
 Comment2 ""
