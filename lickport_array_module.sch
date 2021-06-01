@@ -311,7 +311,7 @@ $Sheet
 S 6750 1550 1000 300 
 U 5F238750
 F0 "odor_0" 50
-F1 "solenoid_spike_hold.sch" 50
+F1 "lickport_interface.sch" 50
 F2 "Vs" U L 6750 1650 50 
 F3 "GND" U R 7750 1750 50 
 F4 "ODOR" I L 6750 1750 50 
@@ -404,7 +404,7 @@ $Sheet
 S 6750 2050 1000 300 
 U 5F2C7F20
 F0 "odor_1" 50
-F1 "solenoid_spike_hold.sch" 50
+F1 "lickport_interface.sch" 50
 F2 "Vs" U L 6750 2150 50 
 F3 "GND" U R 7750 2250 50 
 F4 "ODOR" I L 6750 2250 50 
@@ -492,7 +492,7 @@ $Sheet
 S 6750 2550 1000 300 
 U 5F2EACF4
 F0 "odor_2" 50
-F1 "solenoid_spike_hold.sch" 50
+F1 "lickport_interface.sch" 50
 F2 "Vs" U L 6750 2650 50 
 F3 "GND" U R 7750 2750 50 
 F4 "ODOR" I L 6750 2750 50 
@@ -502,7 +502,7 @@ $Sheet
 S 6750 3050 1000 300 
 U 5F2EACFA
 F0 "odor_3" 50
-F1 "solenoid_spike_hold.sch" 50
+F1 "lickport_interface.sch" 50
 F2 "Vs" U L 6750 3150 50 
 F3 "GND" U R 7750 3250 50 
 F4 "ODOR" I L 6750 3250 50 
@@ -588,7 +588,7 @@ $Sheet
 S 6750 3550 1000 300 
 U 5F2ED13A
 F0 "odor_4" 50
-F1 "solenoid_spike_hold.sch" 50
+F1 "lickport_interface.sch" 50
 F2 "Vs" U L 6750 3650 50 
 F3 "GND" U R 7750 3750 50 
 F4 "ODOR" I L 6750 3750 50 
@@ -598,7 +598,7 @@ $Sheet
 S 6750 4050 1000 300 
 U 5F2ED140
 F0 "odor_5" 50
-F1 "solenoid_spike_hold.sch" 50
+F1 "lickport_interface.sch" 50
 F2 "Vs" U L 6750 4150 50 
 F3 "GND" U R 7750 4250 50 
 F4 "ODOR" I L 6750 4250 50 
@@ -684,7 +684,7 @@ $Sheet
 S 6750 4550 1000 300 
 U 5F2ED17E
 F0 "odor_6" 50
-F1 "solenoid_spike_hold.sch" 50
+F1 "lickport_interface.sch" 50
 F2 "Vs" U L 6750 4650 50 
 F3 "GND" U R 7750 4750 50 
 F4 "ODOR" I L 6750 4750 50 
@@ -694,7 +694,7 @@ $Sheet
 S 6750 5050 1000 300 
 U 5F2ED184
 F0 "odor_7" 50
-F1 "solenoid_spike_hold.sch" 50
+F1 "lickport_interface.sch" 50
 F2 "Vs" U L 6750 5150 50 
 F3 "GND" U R 7750 5250 50 
 F4 "ODOR" I L 6750 5250 50 
@@ -765,7 +765,7 @@ $Sheet
 S 6750 5550 1000 300 
 U 5F2F1BA8
 F0 "odor_8" 50
-F1 "solenoid_spike_hold.sch" 50
+F1 "lickport_interface.sch" 50
 F2 "Vs" U L 6750 5650 50 
 F3 "GND" U R 7750 5750 50 
 F4 "ODOR" I L 6750 5750 50 
