@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 10
+Sheet 2 2
 Title ""
 Date ""
 Rev "1.3"
@@ -202,7 +202,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 2600 5300 2650
 Text HLabel 3950 2700 0    50   Input ~ 0
-ODOR
+SOLENOID
 Wire Wire Line
 	3950 2700 4000 2700
 Text HLabel 6150 2300 1    50   UnSpc ~ 0
