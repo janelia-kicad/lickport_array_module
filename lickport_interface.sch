@@ -54,7 +54,7 @@ AR Path="/5F2ED140/5F24E9AE" Ref="R19"  Part="1"
 AR Path="/5F2ED17E/5F24E9AE" Ref="R22"  Part="1" 
 AR Path="/5F2ED184/5F24E9AE" Ref="R25"  Part="1" 
 AR Path="/5F2F1BA8/5F24E9AE" Ref="R28"  Part="1" 
-F 0 "R4" H 4450 3550 40  0000 L CNN
+F 0 "R4" H 4450 3650 40  0000 L CNN
 F 1 "205k" V 4400 3550 30  0000 C CNN
 F 2 "lickport_interface:SM0402" V 4330 3550 30  0001 C CNN
 F 3 "" V 4480 3550 30  0000 C CNN
@@ -85,37 +85,12 @@ Wire Wire Line
 Connection ~ 4850 2750
 Text Label 4950 2750 0    50   ~ 0
 SH
-$Comp
-L lickport_interface:15nF C3
-U 1 1 5F255A52
-P 4200 3550
-AR Path="/5F238750/5F255A52" Ref="C3"  Part="1" 
-AR Path="/5F2C7F20/5F255A52" Ref="C5"  Part="1" 
-AR Path="/5F2EACF4/5F255A52" Ref="C7"  Part="1" 
-AR Path="/5F2EACFA/5F255A52" Ref="C9"  Part="1" 
-AR Path="/5F2ED13A/5F255A52" Ref="C11"  Part="1" 
-AR Path="/5F2ED140/5F255A52" Ref="C13"  Part="1" 
-AR Path="/5F2ED17E/5F255A52" Ref="C15"  Part="1" 
-AR Path="/5F2ED184/5F255A52" Ref="C17"  Part="1" 
-AR Path="/5F2F1BA8/5F255A52" Ref="C19"  Part="1" 
-F 0 "C3" H 4200 3650 40  0000 L CNN
-F 1 "15nF" H 4200 3550 30  0000 C CNN
-F 2 "lickport_interface:SM0402" H 4238 3400 30  0001 C CNN
-F 3 "" H 4200 3650 60  0001 C CNN
-F 4 "Digi-Key" H 4300 3750 60  0001 C CNN "Vendor"
-F 5 "490-16428-1-ND" H 4400 3850 60  0001 C CNN "Vendor Part Number"
-F 6 "CAP CER 0.015UF 50V X7R 0402" H 4500 3950 60  0001 C CNN "Description"
-F 7 "Murata Electronics" H 4200 3550 50  0001 C CNN "Manufacturer"
-F 8 "GCM155R71H153JA55D" H 4200 3550 50  0001 C CNN "Manufacturer Part Number"
-	1    4200 3550
-	1    0    0    -1  
-$EndComp
 Text Notes 4500 4050 1    50   ~ 0
 25k Hz
 Text HLabel 4200 3800 3    50   UnSpc ~ 0
 GND
 Text Notes 4300 3950 1    50   ~ 0
-16.5 ms
+51.7 ms
 $Comp
 L lickport_interface:LEECO_LHDB S1
 U 1 1 5F25E10F
@@ -142,33 +117,8 @@ F 9 "0305-0-15-15-47-27-10-0" H 7450 2750 50  0001 C CNN "Manufacturer Part Numb
 	1    7450 2750
 	-1   0    0    1   
 $EndComp
-$Comp
-L lickport_interface:150k R3
-U 1 1 5F25EE83
-P 3950 3550
-AR Path="/5F238750/5F25EE83" Ref="R3"  Part="1" 
-AR Path="/5F2C7F20/5F25EE83" Ref="R6"  Part="1" 
-AR Path="/5F2EACF4/5F25EE83" Ref="R9"  Part="1" 
-AR Path="/5F2EACFA/5F25EE83" Ref="R12"  Part="1" 
-AR Path="/5F2ED13A/5F25EE83" Ref="R15"  Part="1" 
-AR Path="/5F2ED140/5F25EE83" Ref="R18"  Part="1" 
-AR Path="/5F2ED17E/5F25EE83" Ref="R21"  Part="1" 
-AR Path="/5F2ED184/5F25EE83" Ref="R24"  Part="1" 
-AR Path="/5F2F1BA8/5F25EE83" Ref="R27"  Part="1" 
-F 0 "R3" H 4000 3550 40  0000 L CNN
-F 1 "150k" V 3950 3550 30  0000 C CNN
-F 2 "lickport_interface:SM0402" V 3880 3550 30  0001 C CNN
-F 3 "" V 4030 3550 30  0000 C CNN
-F 4 "Digi-Key" V 4130 3650 60  0001 C CNN "Vendor"
-F 5 "P150KLCT-ND" V 4230 3750 60  0001 C CNN "Vendor Part Number"
-F 6 "RES SMD 150K OHM 1% 1/10W 0402" V 4330 3850 60  0001 C CNN "Description"
-F 7 "Panasonic Electronic Components" H 3950 3550 50  0001 C CNN "Manufacturer"
-F 8 "ERJ-2RKF1503X" H 3950 3550 50  0001 C CNN "Manufacturer Part Number"
-	1    3950 3550
-	1    0    0    -1  
-$EndComp
 Text Notes 4050 4050 1    50   ~ 0
-60% DC
+50% DC
 Text HLabel 3950 3850 3    50   UnSpc ~ 0
 GND
 Wire Wire Line
@@ -357,4 +307,36 @@ Wire Wire Line
 	7650 2800 7700 2800
 Text Label 7700 2800 0    50   ~ 0
 SH
+$Comp
+L lickport_interface:47nF C?
+U 1 1 60B7FA79
+P 4200 3550
+F 0 "C?" H 4250 3650 40  0000 L CNN
+F 1 "47nF" H 4200 3550 30  0000 C CNN
+F 2 "lickport_interface:SM0402" H 4238 3400 30  0001 C CNN
+F 3 "" H 4200 3650 60  0001 C CNN
+F 4 "Digi-Key" H 4300 3750 60  0001 C CNN "Vendor"
+F 5 "490-10702-1-ND" H 4400 3850 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 0.047UF 50V X7R 0402" H 4500 3950 60  0001 C CNN "Description"
+F 7 "Murata Electronics" H 4200 3550 50  0001 C CNN "Manufacturer"
+F 8 "GRM155R71H473KE14D" H 4200 3550 50  0001 C CNN "Manufacturer Part Number"
+F 9 "0402" H 4200 3550 50  0001 C CNN "Package"
+	1    4200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L lickport_interface:137k R?
+U 1 1 60B81B02
+P 3950 3550
+F 0 "R?" H 4000 3650 40  0000 L CNN
+F 1 "137k" V 3950 3550 30  0000 C CNN
+F 2 "lickport_interface:SM0402" V 3880 3550 30  0001 C CNN
+F 3 "" V 4030 3550 30  0000 C CNN
+F 4 "Digi-Key" V 4130 3650 60  0001 C CNN "Vendor"
+F 5 "P137KLCT-ND" V 4230 3750 60  0001 C CNN "Vendor Part Number"
+F 6 "RES SMD 137K OHM 1% 1/10W" V 4330 3850 60  0001 C CNN "Description"
+F 7 "0402" H 3950 3550 50  0001 C CNN "Package"
+	1    3950 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,19 +1,17 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 150k
+# 137k
 #
-DEF 150k R 0 0 N Y 1 F N
+DEF 137k R 0 0 N Y 1 F N
 F0 "R" 80 0 40 V V C CNN
-F1 "150k" 0 0 30 V V C CNN
+F1 "137k" 0 0 30 V V C CNN
 F2 "lickport_interface:SM0402" -70 0 30 V I C CNN
 F3 "" 80 0 30 V V C CNN
 F4 "Digi-Key" 180 100 60 V I C CNN "Vendor"
-F5 "P150KLCT-ND" 280 200 60 V I C CNN "Vendor Part Number"
-F6 "RES SMD 150K OHM 1% 1/10W" 380 300 60 V I C CNN "Description"
-F7 "Panasonic Electronic Components" 0 0 50 H I C CNN "Manufacturer"
-F8 "ERJ-2RKF1503X" 0 0 50 H I C CNN "Manufacturer Part Number"
-F9 "0402" 0 0 50 H I C CNN "Package"
+F5 "P137KLCT-ND" 280 200 60 V I C CNN "Vendor Part Number"
+F6 "RES SMD 137K OHM 1% 1/10W" 380 300 60 V I C CNN "Description"
+F7 "0402" 0 0 50 H I C CNN "Package"
 $FPLIST
  R?
  SM0603
@@ -25,32 +23,6 @@ DRAW
 S -40 150 40 -150 0 1 12 N
 X ~ 1 0 250 100 D 60 60 1 1 P
 X ~ 2 0 -250 100 U 60 60 1 1 P
-ENDDRAW
-ENDDEF
-#
-# 15nF
-#
-DEF 15nF C 0 10 N Y 1 F N
-F0 "C" 0 100 40 H V L CNN
-F1 "15nF" 0 0 30 H V C CNN
-F2 "lickport_interface:SM0402" 38 -150 30 H I C CNN
-F3 "" 0 100 60 H I C CNN
-F4 "Digi-Key" 100 200 60 H I C CNN "Vendor"
-F5 "490-16428-1-ND" 200 300 60 H I C CNN "Vendor Part Number"
-F6 "CAP CER 0.015UF 50V X7R" 300 400 60 H I C CNN "Description"
-F7 "Murata Electronics" 0 0 50 H I C CNN "Manufacturer"
-F8 "GCM155R71H153JA55D" 0 0 50 H I C CNN "Manufacturer Part Number"
-F9 "0402" 0 0 50 H I C CNN "Package"
-$FPLIST
- SM*
- C?
- C1-1
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 200 170 D 40 40 1 1 P
-X ~ 2 0 -200 170 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -136,6 +108,32 @@ DRAW
 S -40 150 40 -150 0 1 12 N
 X ~ 1 0 250 100 D 60 60 1 1 P
 X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 47nF
+#
+DEF 47nF C 0 10 N Y 1 F N
+F0 "C" 0 100 40 H V L CNN
+F1 "47nF" 0 0 30 H V C CNN
+F2 "lickport_interface:SM0402" 38 -150 30 H I C CNN
+F3 "" 0 100 60 H I C CNN
+F4 "Digi-Key" 100 200 60 H I C CNN "Vendor"
+F5 "490-10702-1-ND" 200 300 60 H I C CNN "Vendor Part Number"
+F6 "CAP CER 0.047UF 50V X7R 0402" 300 400 60 H I C CNN "Description"
+F7 "Murata Electronics" 0 0 50 H I C CNN "Manufacturer"
+F8 "GRM155R71H473KE14D" 0 0 50 H I C CNN "Manufacturer Part Number"
+F9 "0402" 0 0 50 H I C CNN "Package"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
