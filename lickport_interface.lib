@@ -57,19 +57,19 @@ X ~ 2 0 -100 73 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 205k
+# 2.2k
 #
-DEF 205k R 0 0 N Y 1 F N
+DEF 2.2k R 0 0 N Y 1 F N
 F0 "R" 80 0 40 V V C CNN
-F1 "205k" 0 0 30 V V C CNN
+F1 "2.2k" 0 0 30 V V C CNN
 F2 "lickport_interface:SM0402" -70 0 30 V I C CNN
 F3 "" 80 0 30 V V C CNN
 F4 "Digi-Key" 180 100 60 V I C CNN "Vendor"
-F5 "P205KLCT-ND" 280 200 60 V I C CNN "Vendor Part Number"
-F6 "RES SMD 205K OHM 1% 1/10W" 380 300 60 V I C CNN "Description"
-F7 "Panasonic Electronic Components" 0 0 50 H I C CNN "Manufacturer"
-F8 "ERJ-2RKF2053X" 0 0 50 H I C CNN "Manufacturer Part Number"
-F9 "0402" 0 0 50 H I C CNN "Package"
+F5 "P17226CT-ND" 280 200 60 V I C CNN "Vendor Part Number"
+F6 "RES SMD 2.2K OHM 1% 1/5W" 380 300 60 V I C CNN "Description"
+F7 "0402" 0 0 50 H I C CNN "Package"
+F8 "Panasonic Electronic Components" 0 0 50 H I C CNN "Manufacturer"
+F9 "ERJ-PA2F2201X" 0 0 50 H I C CNN "Manufacturer Part Number"
 $FPLIST
  R?
  SM0603
@@ -84,18 +84,18 @@ X ~ 2 0 -250 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 390
+# 205k
 #
-DEF 390 R 0 0 N Y 1 F N
+DEF 205k R 0 0 N Y 1 F N
 F0 "R" 80 0 40 V V C CNN
-F1 "390" 0 0 30 V V C CNN
+F1 "205k" 0 0 30 V V C CNN
 F2 "lickport_interface:SM0402" -70 0 30 V I C CNN
 F3 "" 80 0 30 V V C CNN
 F4 "Digi-Key" 180 100 60 V I C CNN "Vendor"
-F5 "P124568CT-ND" 280 200 60 V I C CNN "Vendor Part Number"
-F6 "RES SMD 390 OHM 5% 1/5W" 380 300 60 V I C CNN "Description"
+F5 "P205KLCT-ND" 280 200 60 V I C CNN "Vendor Part Number"
+F6 "RES SMD 205K OHM 1% 1/10W" 380 300 60 V I C CNN "Description"
 F7 "Panasonic Electronic Components" 0 0 50 H I C CNN "Manufacturer"
-F8 "ERJ-PA2J391X" 0 0 50 H I C CNN "Manufacturer Part Number"
+F8 "ERJ-2RKF2053X" 0 0 50 H I C CNN "Manufacturer Part Number"
 F9 "0402" 0 0 50 H I C CNN "Package"
 $FPLIST
  R?
@@ -134,6 +134,34 @@ P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N
 X ~ 1 0 200 170 D 40 40 1 1 P
 X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CLIPPARD-NPV2-1C-23-24
+#
+DEF CLIPPARD-NPV2-1C-23-24 S 0 40 Y N 1 F N
+F0 "S" 0 150 50 H V C CNN
+F1 "CLIPPARD-NPV2-1C-23-24" 100 0 50 V V C CNN
+F2 "lickport_interface:CLIPPARD_NPV2-1C-23-24" -100 50 60 H I C CNN
+F3 "" 0 150 60 H V C CNN
+F4 "Digi-Key" 100 250 60 H I C CNN "Vendor"
+F5 "ED90331-ND" 200 350 60 H I C CNN "Vendor Part Number"
+F6 "CONN PIN RCPT .025-.037 SOLDER" 300 450 60 H I C CNN "Description"
+F7 "2" 0 0 50 H I C CNN "Quantity"
+F8 "Mill-Max Manufacturing Corp" 0 0 50 H I C CNN "Manufacturer"
+F9 "0305-0-15-15-47-27-10-0" 0 0 50 H I C CNN "Manufacturer Part Number"
+$FPLIST
+ Pin_Header_Straight_1X02
+ Pin_Header_Angled_1X02
+ Socket_Strip_Straight_1X02
+ Socket_Strip_Angled_1X02
+$ENDFPLIST
+DRAW
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 100 50 -100 0 1 0 N
+X P1 1 -200 50 150 R 50 50 1 1 P
+X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -252,34 +280,6 @@ P 3 0 1 0 65 -40 110 -80 105 -55 N
 P 3 0 1 0 80 -25 125 -65 120 -40 N
 X A 1 -200 0 150 R 40 40 1 1 P
 X K 2 200 0 150 L 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# LEECO_LHDB
-#
-DEF LEECO_LHDB S 0 40 Y N 1 F N
-F0 "S" 0 150 50 H V C CNN
-F1 "LEECO_LHDB" 100 0 50 V V C CNN
-F2 "lickport_interface:LEECO_LHDB" -100 50 60 H I C CNN
-F3 "" 0 150 60 H V C CNN
-F4 "Digi-Key" 100 250 60 H I C CNN "Vendor"
-F5 "ED90331-ND" 200 350 60 H I C CNN "Vendor Part Number"
-F6 "CONN PIN RCPT .025-.037 SOLDER" 300 450 60 H I C CNN "Description"
-F7 "2" 0 0 50 H I C CNN "Quantity"
-F8 "Mill-Max Manufacturing Corp" 0 0 50 H I C CNN "Manufacturer"
-F9 "0305-0-15-15-47-27-10-0" 0 0 50 H I C CNN "Manufacturer Part Number"
-$FPLIST
- Pin_Header_Straight_1X02
- Pin_Header_Angled_1X02
- Socket_Strip_Straight_1X02
- Socket_Strip_Angled_1X02
-$ENDFPLIST
-DRAW
-S -50 -45 10 -55 0 1 0 N
-S -50 55 10 45 0 1 0 N
-S -50 100 50 -100 0 1 0 N
-X P1 1 -200 50 150 R 50 50 1 1 P
-X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

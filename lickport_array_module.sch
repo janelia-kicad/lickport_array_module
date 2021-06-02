@@ -393,23 +393,6 @@ F 9 "160-1179-1-ND" H 4550 5950 60  0001 C CNN "Vendor Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L lickport_array_module:390 R1
-U 1 1 5F265AF0
-P 4550 5450
-F 0 "R1" H 4621 5480 40  0000 L CNN
-F 1 "390" V 4550 5450 30  0000 C CNN
-F 2 "lickport_array_module:SM0402" V 4480 5450 30  0001 C CNN
-F 3 "" V 4630 5450 30  0000 C CNN
-F 4 "Digi-Key" V 4730 5550 60  0001 C CNN "Vendor"
-F 5 "P124568CT-ND" V 4830 5650 60  0001 C CNN "Vendor Part Number"
-F 6 "RES SMD 390 OHM 5% 1/5W" V 4930 5750 60  0001 C CNN "Description"
-F 7 "Panasonic Electronic Components" H 4550 5450 50  0001 C CNN "Manufacturer"
-F 8 "ERJ-PA2J391X" H 4550 5450 50  0001 C CNN "Manufacturer Part Number"
-F 9 "0402" H 4550 5450 50  0001 C CNN "Package"
-	1    4550 5450
-	1    0    0    -1  
-$EndComp
-$Comp
 L lickport_array_module:SPDT_SLIDE_500A_SM SW1
 U 1 1 5F275B4A
 P 4000 5550
@@ -589,6 +572,23 @@ F 7 "48" H 3350 1550 50  0001 C CNN "Quantity"
 F 8 "Mill-Max Manufacturing Corp." H 3350 1550 50  0001 C CNN "Manufacturer"
 F 9 "0305-0-15-15-47-27-10-0" H 3350 1550 50  0001 C CNN "Manufacturer Part Number"
 	1    3350 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L lickport_array_module:2.2k R?
+U 1 1 60B90AD4
+P 4550 5450
+F 0 "R?" H 4600 5450 40  0000 L CNN
+F 1 "2.2k" V 4550 5450 30  0000 C CNN
+F 2 "lickport_array_module:SM0402" V 4480 5450 30  0001 C CNN
+F 3 "" V 4630 5450 30  0000 C CNN
+F 4 "Digi-Key" V 4730 5550 60  0001 C CNN "Vendor"
+F 5 "P17226CT-ND" V 4830 5650 60  0001 C CNN "Vendor Part Number"
+F 6 "RES SMD 2.2K OHM 1% 1/5W" V 4930 5750 60  0001 C CNN "Description"
+F 7 "0402" H 4550 5450 50  0001 C CNN "Package"
+F 8 "Panasonic Electronic Components" H 4550 5450 50  0001 C CNN "Manufacturer"
+F 9 "ERJ-PA2F2201X" H 4550 5450 50  0001 C CNN "Manufacturer Part Number"
+	1    4550 5450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

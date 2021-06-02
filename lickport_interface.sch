@@ -91,32 +91,6 @@ Text HLabel 4200 3800 3    50   UnSpc ~ 0
 GND
 Text Notes 4300 3950 1    50   ~ 0
 51.7 ms
-$Comp
-L lickport_interface:LEECO_LHDB S1
-U 1 1 5F25E10F
-P 7450 2750
-AR Path="/5F238750/5F25E10F" Ref="S1"  Part="1" 
-AR Path="/5F2C7F20/5F25E10F" Ref="S2"  Part="1" 
-AR Path="/5F2EACF4/5F25E10F" Ref="S3"  Part="1" 
-AR Path="/5F2EACFA/5F25E10F" Ref="S4"  Part="1" 
-AR Path="/5F2ED13A/5F25E10F" Ref="S5"  Part="1" 
-AR Path="/5F2ED140/5F25E10F" Ref="S6"  Part="1" 
-AR Path="/5F2ED17E/5F25E10F" Ref="S7"  Part="1" 
-AR Path="/5F2ED184/5F25E10F" Ref="S8"  Part="1" 
-AR Path="/5F2F1BA8/5F25E10F" Ref="S9"  Part="1" 
-F 0 "S1" H 7528 2791 50  0000 L CNN
-F 1 "LEECO_LHDB" H 7528 2700 50  0000 L CNN
-F 2 "lickport_interface:LEECO_LHDB" H 7350 2800 60  0001 C CNN
-F 3 "" H 7450 2900 60  0000 C CNN
-F 4 "Digi-Key" H 7550 3000 60  0001 C CNN "Vendor"
-F 5 "ED90331-ND" H 7650 3100 60  0001 C CNN "Vendor Part Number"
-F 6 "CONN PIN RCPT .025-.037 SOLDER" H 7750 3200 60  0001 C CNN "Description"
-F 7 "2" H 7450 2750 50  0001 C CNN "Quantity"
-F 8 "Mill-Max Manufacturing Corp" H 7450 2750 50  0001 C CNN "Manufacturer"
-F 9 "0305-0-15-15-47-27-10-0" H 7450 2750 50  0001 C CNN "Manufacturer Part Number"
-	1    7450 2750
-	-1   0    0    1   
-$EndComp
 Text Notes 4050 4050 1    50   ~ 0
 50% DC
 Text HLabel 3950 3850 3    50   UnSpc ~ 0
@@ -222,32 +196,6 @@ F 9 "160-1179-1-ND" H 6150 3350 60  0001 C CNN "Vendor Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L lickport_interface:390 R2
-U 1 1 5F2668A6
-P 6150 2850
-AR Path="/5F238750/5F2668A6" Ref="R2"  Part="1" 
-AR Path="/5F2C7F20/5F2668A6" Ref="R5"  Part="1" 
-AR Path="/5F2EACF4/5F2668A6" Ref="R8"  Part="1" 
-AR Path="/5F2EACFA/5F2668A6" Ref="R11"  Part="1" 
-AR Path="/5F2ED13A/5F2668A6" Ref="R14"  Part="1" 
-AR Path="/5F2ED140/5F2668A6" Ref="R17"  Part="1" 
-AR Path="/5F2ED17E/5F2668A6" Ref="R20"  Part="1" 
-AR Path="/5F2ED184/5F2668A6" Ref="R23"  Part="1" 
-AR Path="/5F2F1BA8/5F2668A6" Ref="R26"  Part="1" 
-F 0 "R2" H 6200 2850 40  0000 L CNN
-F 1 "390" V 6150 2850 30  0000 C CNN
-F 2 "lickport_interface:SM0402" V 6080 2850 30  0001 C CNN
-F 3 "" V 6230 2850 30  0000 C CNN
-F 4 "Digi-Key" V 6330 2950 60  0001 C CNN "Vendor"
-F 5 "P124568CT-ND" V 6430 3050 60  0001 C CNN "Vendor Part Number"
-F 6 "RES SMD 390 OHM 5% 1/5W" V 6530 3150 60  0001 C CNN "Description"
-F 7 "Panasonic Electronic Components" H 6150 2850 50  0001 C CNN "Manufacturer"
-F 8 "ERJ-PA2J391X" H 6150 2850 50  0001 C CNN "Manufacturer Part Number"
-F 9 "0402" H 6150 2850 50  0001 C CNN "Package"
-	1    6150 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L lickport_interface:DIODE_SCHOTTKY_0402 D4
 U 1 1 5F26A8AE
 P 4850 2600
@@ -337,6 +285,23 @@ F 5 "P137KLCT-ND" V 4230 3750 60  0001 C CNN "Vendor Part Number"
 F 6 "RES SMD 137K OHM 1% 1/10W" V 4330 3850 60  0001 C CNN "Description"
 F 7 "0402" H 3950 3550 50  0001 C CNN "Package"
 	1    3950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L lickport_interface:2.2k R?
+U 1 1 60B8D612
+P 6150 2850
+F 0 "R?" H 6200 2850 40  0000 L CNN
+F 1 "2.2k" V 6150 2850 30  0000 C CNN
+F 2 "footprints:SM0402" V 6080 2850 30  0001 C CNN
+F 3 "" V 6230 2850 30  0000 C CNN
+F 4 "Digi-Key" V 6330 2950 60  0001 C CNN "Vendor"
+F 5 "P17226CT-ND" V 6430 3050 60  0001 C CNN "Vendor Part Number"
+F 6 "RES SMD 2.2K OHM 1% 1/5W" V 6530 3150 60  0001 C CNN "Description"
+F 7 "0402" H 6150 2850 50  0001 C CNN "Package"
+F 8 "Panasonic Electronic Components" H 6150 2850 50  0001 C CNN "Manufacturer"
+F 9 "ERJ-PA2F2201X" H 6150 2850 50  0001 C CNN "Manufacturer Part Number"
+	1    6150 2850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
