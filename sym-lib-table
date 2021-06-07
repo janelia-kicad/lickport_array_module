@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name power)(type Legacy)(uri ${KIPRJMOD}/power.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri ${KIPRJMOD}/power.lib)(options "")(descr "")(disabled))
   (lib (name lickport_array_module)(type Legacy)(uri ${KIPRJMOD}/lickport_array_module.lib)(options "")(descr ""))
   (lib (name lickport_interface)(type Legacy)(uri ${KIPRJMOD}/lickport_interface.lib)(options "")(descr ""))
 )
