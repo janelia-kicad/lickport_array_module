@@ -283,4 +283,22 @@ X K 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
+# RECEPTACLE_2MM
+#
+DEF RECEPTACLE_2MM P 0 40 Y Y 1 F N
+F0 "P" 100 -100 60 H V C CNN
+F1 "RECEPTACLE_2MM" 0 100 60 H V C CNN
+F2 "lickport_interface:RECEPTACLE_2MM" 0 1050 60 H I C CNN
+F3 "" 50 2750 60 H V C CNN
+F4 "Digi-Key" 0 1150 60 H I C CNN "Vendor"
+F5 "ED10170-ND" 0 1250 60 H I C CNN "Vendor Part Number"
+F6 "Pin Receptacle Connector 0.065in to 0.082in" 0 1350 60 H I C CNN "Description"
+F7 "1" 0 1400 50 H I C CNN "Quantity"
+F8 "Mill-Max Manufacturing Corp." 0 1400 50 H I C CNN "Manufacturer"
+F9 "9837-0-15-80-14-27-10-0" 0 1400 50 H I C CNN "Manufacturer Part Number"
+DRAW
+X ~ 1 0 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library

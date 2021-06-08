@@ -304,4 +304,25 @@ F 9 "ERJ-PA2F2201X" H 6150 2850 50  0001 C CNN "Manufacturer Part Number"
 	1    6150 2850
 	1    0    0    -1  
 $EndComp
+$Comp
+L lickport_interface:RECEPTACLE_2MM P?
+U 1 1 60BFA3BB
+P 7650 3400
+F 0 "P?" H 7694 3396 60  0000 L CNN
+F 1 "RECEPTACLE_2MM" H 7694 3290 60  0000 L CNN
+F 2 "lickport_interface:RECEPTACLE_2MM" H 7650 4450 60  0001 C CNN
+F 3 "" H 7700 6150 60  0000 C CNN
+F 4 "Digi-Key" H 7650 4550 60  0001 C CNN "Vendor"
+F 5 "ED10170-ND" H 7650 4650 60  0001 C CNN "Vendor Part Number"
+F 6 "Pin Receptacle Connector 0.065in to 0.082in" H 7650 4750 60  0001 C CNN "Description"
+F 7 "1" H 7650 4800 50  0001 C CNN "Quantity"
+F 8 "Mill-Max Manufacturing Corp." H 7650 4800 50  0001 C CNN "Manufacturer"
+F 9 "9837-0-15-80-14-27-10-0" H 7650 4800 50  0001 C CNN "Manufacturer Part Number"
+	1    7650 3400
+	1    0    0    -1  
+$EndComp
+Text HLabel 7550 3500 0    50   UnSpc ~ 0
+SENSE
+Wire Wire Line
+	7550 3500 7650 3500
 $EndSCHEMATC
