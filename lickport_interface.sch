@@ -307,22 +307,41 @@ $EndComp
 $Comp
 L lickport_interface:RECEPTACLE_2MM P?
 U 1 1 60BFA3BB
-P 7650 3400
-F 0 "P?" H 7694 3396 60  0000 L CNN
-F 1 "RECEPTACLE_2MM" H 7694 3290 60  0000 L CNN
-F 2 "lickport_interface:RECEPTACLE_2MM" H 7650 4450 60  0001 C CNN
-F 3 "" H 7700 6150 60  0000 C CNN
-F 4 "Digi-Key" H 7650 4550 60  0001 C CNN "Vendor"
-F 5 "ED10170-ND" H 7650 4650 60  0001 C CNN "Vendor Part Number"
-F 6 "Pin Receptacle Connector 0.065in to 0.082in" H 7650 4750 60  0001 C CNN "Description"
-F 7 "1" H 7650 4800 50  0001 C CNN "Quantity"
-F 8 "Mill-Max Manufacturing Corp." H 7650 4800 50  0001 C CNN "Manufacturer"
-F 9 "9837-0-15-80-14-27-10-0" H 7650 4800 50  0001 C CNN "Manufacturer Part Number"
-	1    7650 3400
+P 7700 3700
+F 0 "P?" H 7744 3696 60  0000 L CNN
+F 1 "RECEPTACLE_2MM" H 7744 3590 60  0000 L CNN
+F 2 "lickport_interface:RECEPTACLE_2MM" H 7700 4750 60  0001 C CNN
+F 3 "" H 7750 6450 60  0000 C CNN
+F 4 "Digi-Key" H 7700 4850 60  0001 C CNN "Vendor"
+F 5 "ED10170-ND" H 7700 4950 60  0001 C CNN "Vendor Part Number"
+F 6 "Pin Receptacle Connector 0.065in to 0.082in" H 7700 5050 60  0001 C CNN "Description"
+F 7 "1" H 7700 5100 50  0001 C CNN "Quantity"
+F 8 "Mill-Max Manufacturing Corp." H 7700 5100 50  0001 C CNN "Manufacturer"
+F 9 "9837-0-15-80-14-27-10-0" H 7700 5100 50  0001 C CNN "Manufacturer Part Number"
+	1    7700 3700
 	1    0    0    -1  
 $EndComp
-Text HLabel 7550 3500 0    50   UnSpc ~ 0
+Text HLabel 7050 3800 0    50   UnSpc ~ 0
 SENSE
 Wire Wire Line
-	7550 3500 7650 3500
+	7600 3800 7700 3800
+$Comp
+L lickport_interface:20k R?
+U 1 1 60C747EA
+P 7350 3800
+F 0 "R?" V 7250 3800 40  0000 C CNN
+F 1 "20k" V 7350 3800 30  0000 C CNN
+F 2 "lickport_interface:SM0402" V 7280 3800 30  0001 C CNN
+F 3 "" V 7430 3800 30  0000 C CNN
+F 4 "Digi-Key" V 7530 3900 60  0001 C CNN "Vendor"
+F 5 "P124454CT-ND" V 7630 4000 60  0001 C CNN "Vendor Part Number"
+F 6 "" V 7730 4100 60  0001 C CNN "Description"
+F 7 "0402" H 7350 3800 50  0001 C CNN "Package"
+F 8 "Panasonic Electronic Components" H 7350 3800 50  0001 C CNN "Manufacturer"
+F 9 "ERJ-PA2F2002X" H 7350 3800 50  0001 C CNN "Manufacturer Part Number"
+	1    7350 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7050 3800 7100 3800
 $EndSCHEMATC
