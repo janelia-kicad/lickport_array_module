@@ -934,4 +934,57 @@ F 3 "" H 2050 5250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2050 5250 2050 5300
+$Comp
+L power:GND #PWR?
+U 1 1 60C30717
+P 4200 4850
+F 0 "#PWR?" H 4200 4600 50  0001 C CNN
+F 1 "GND" H 4205 4677 50  0000 C CNN
+F 2 "" H 4200 4850 50  0001 C CNN
+F 3 "" H 4200 4850 50  0001 C CNN
+	1    4200 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4850 4200 4800
+$Comp
+L lickport_array_module:LED_GRN L?
+U 1 1 60C30B20
+P 4200 4600
+F 0 "L?" V 4162 4678 50  0000 L CNN
+F 1 "LED_GRN" V 4246 4678 40  0000 L CNN
+F 2 "lickport_array_module:LED0805" H 4100 4600 60  0001 C CNN
+F 3 "" H 4200 4600 60  0000 C CNN
+F 4 "LED GREEN CLEAR SMD" H 4500 5000 60  0001 C CNN "Description"
+F 5 "0805 (2012 Metric)" H 4200 4600 60  0001 C CNN "Package"
+F 6 "Lite-On Inc." H 4200 4600 60  0001 C CNN "Manufacturer"
+F 7 "LTST-C170GKT" H 4200 4600 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 4200 4600 60  0001 C CNN "Vendor"
+F 9 "160-1179-1-ND" H 4200 4600 60  0001 C CNN "Vendor Part Number"
+	1    4200 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L lickport_array_module:300 R?
+U 1 1 60C3305F
+P 4200 4100
+F 0 "R?" H 4250 4100 40  0000 L CNN
+F 1 "300" V 4200 4100 30  0000 C CNN
+F 2 "footprints:SM0402" V 4130 4100 30  0001 C CNN
+F 3 "" V 4280 4100 30  0000 C CNN
+F 4 "Digi-Key" V 4380 4200 60  0001 C CNN "Vendor"
+F 5 "P124467CT-ND" V 4480 4300 60  0001 C CNN "Vendor Part Number"
+F 6 "RES SMD 300 OHM 1% 1/5W" V 4580 4400 60  0001 C CNN "Description"
+F 7 "0402" H 4200 4100 50  0001 C CNN "Package"
+F 8 "Panasonic Electronic Components" H 4200 4100 50  0001 C CNN "Manufacturer"
+F 9 "ERJ-PA2F3000X" H 4200 4100 50  0001 C CNN "Manufacturer Part Number"
+	1    4200 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4350 4200 4400
+Wire Wire Line
+	4200 3850 4200 3750
+Text Label 4200 3750 0    50   ~ 0
+LICK_DETECTED
 $EndSCHEMATC
