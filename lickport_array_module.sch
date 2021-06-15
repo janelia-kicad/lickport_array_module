@@ -513,23 +513,6 @@ F 3 "" H 9650 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lickport_array_module:TEENSY_4.1 TEENSY1
-U 1 1 60B7D4C5
-P 3000 1550
-F 0 "TEENSY1" H 3000 2447 60  0000 C CNN
-F 1 "TEENSY_4.1" H 3000 2341 60  0000 C CNN
-F 2 "lickport_array_module:TEENSY_4.1" H 3000 2600 60  0001 C CNN
-F 3 "" H 3050 4300 60  0000 C CNN
-F 4 "Digi-Key" H 3000 2700 60  0001 C CNN "Vendor"
-F 5 "ED90331-ND" H 3000 2800 60  0001 C CNN "Vendor Part Number"
-F 6 "CONN PIN RCPT .025-.037 SOLDER" H 3000 2900 60  0001 C CNN "Description"
-F 7 "48" H 3000 1550 50  0001 C CNN "Quantity"
-F 8 "Mill-Max Manufacturing Corp." H 3000 1550 50  0001 C CNN "Manufacturer"
-F 9 "0305-0-15-15-47-27-10-0" H 3000 1550 50  0001 C CNN "Manufacturer Part Number"
-	1    3000 1550
-	1    0    0    -1  
-$EndComp
-$Comp
 L lickport_array_module:2.2k R1
 U 1 1 60B90AD4
 P 3500 4100
@@ -1658,4 +1641,21 @@ F5 "SOLENOID" I L 7650 5050 50
 F6 "TOUCH" U L 7650 5150 50 
 $EndSheet
 NoConn ~ 4250 1200
+$Comp
+L lickport_array_module:TEENSY_4.1_HEADERS TEENSY1
+U 1 1 60CBCDD6
+P 3000 1550
+F 0 "TEENSY1" H 3000 2447 60  0000 C CNN
+F 1 "TEENSY_4.1_HEADERS" H 3000 2341 60  0000 C CNN
+F 2 "lickport_array_module:TEENSY_4.1_HEADERS" H 3000 2600 60  0001 C CNN
+F 3 "" H 3050 4300 60  0000 C CNN
+F 4 "Digi-Key" H 3000 2700 60  0001 C CNN "Vendor"
+F 5 "S7057-ND" H 3000 2800 60  0001 C CNN "Vendor Part Number"
+F 6 "CONN HDR 24POS 0.1 GOLD PCB" H 3000 2900 60  0001 C CNN "Description"
+F 7 "2" H 3000 1550 50  0001 C CNN "Quantity"
+F 8 "Sullins Connector Solutions" H 3000 1550 50  0001 C CNN "Manufacturer"
+F 9 "PPPC241LFBN-RC" H 3000 1550 50  0001 C CNN "Manufacturer Part Number"
+	1    3000 1550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

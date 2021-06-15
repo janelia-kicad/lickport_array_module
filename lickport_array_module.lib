@@ -344,19 +344,19 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TEENSY_4.1
+# TEENSY_4.1_HEADERS
 #
-DEF TEENSY_4.1 TEENSY 0 40 Y Y 1 F N
+DEF TEENSY_4.1_HEADERS TEENSY 0 40 Y Y 1 F N
 F0 "TEENSY" 550 850 60 H V C CNN
-F1 "TEENSY_4.1" -450 850 60 H V C CNN
-F2 "lickport_array_module:TEENSY_4.1" 0 1050 60 H I C CNN
+F1 "TEENSY_4.1_HEADERS" -450 850 60 H V C CNN
+F2 "lickport_array_module:TEENSY_4.1_HEADERS" 0 1050 60 H I C CNN
 F3 "" 50 2750 60 H V C CNN
 F4 "Digi-Key" 0 1150 60 H I C CNN "Vendor"
-F5 "ED90331-ND" 0 1250 60 H I C CNN "Vendor Part Number"
-F6 "CONN PIN RCPT .025-.037 SOLDER" 0 1350 60 H I C CNN "Description"
-F7 "48" 0 0 50 H I C CNN "Quantity"
-F8 "Mill-Max Manufacturing Corp." 0 0 50 H I C CNN "Manufacturer"
-F9 "0305-0-15-15-47-27-10-0" 0 0 50 H I C CNN "Manufacturer Part Number"
+F5 "S7057-ND" 0 1250 60 H I C CNN "Vendor Part Number"
+F6 "CONN HDR 24POS 0.1 GOLD PCB" 0 1350 60 H I C CNN "Description"
+F7 "2" 0 0 50 H I C CNN "Quantity"
+F8 "Sullins Connector Solutions" 0 0 50 H I C CNN "Manufacturer"
+F9 "PPPC241LFBN-RC" 0 0 50 H I C CNN "Manufacturer Part Number"
 DRAW
 S -1050 -700 1050 -1700 0 1 0 N
 S -1050 700 1050 -700 0 1 0 N
