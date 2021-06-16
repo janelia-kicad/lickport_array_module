@@ -674,33 +674,33 @@ Wire Wire Line
 $Comp
 L lickport_array_module:47k R4
 U 1 1 60C38A0D
-P 1750 5850
-F 0 "R4" H 1800 5850 40  0000 L CNN
-F 1 "47k" V 1750 5850 30  0000 C CNN
-F 2 "lickport_array_module:SM0402" V 1680 5850 30  0001 C CNN
-F 3 "" V 1830 5850 30  0000 C CNN
-F 4 "Digi-Key" V 1930 5950 60  0001 C CNN "Vendor"
-F 5 "P17234CT-ND" V 2030 6050 60  0001 C CNN "Vendor Part Number"
-F 6 "RES SMD 47K OHM 1% 1/5W" V 2130 6150 60  0001 C CNN "Description"
-F 7 "0402" H 1750 5850 50  0001 C CNN "Package"
-F 8 "Panasonic Electronic Components" H 1750 5850 50  0001 C CNN "Manufacturer"
-F 9 "ERJ-PA2F4702X" H 1750 5850 50  0001 C CNN "Manufacturer Part Number"
-	1    1750 5850
+P 1650 5850
+F 0 "R4" H 1700 5850 40  0000 L CNN
+F 1 "47k" V 1650 5850 30  0000 C CNN
+F 2 "lickport_array_module:SM0402" V 1580 5850 30  0001 C CNN
+F 3 "" V 1730 5850 30  0000 C CNN
+F 4 "Digi-Key" V 1830 5950 60  0001 C CNN "Vendor"
+F 5 "P17234CT-ND" V 1930 6050 60  0001 C CNN "Vendor Part Number"
+F 6 "RES SMD 47K OHM 1% 1/5W" V 2030 6150 60  0001 C CNN "Description"
+F 7 "0402" H 1650 5850 50  0001 C CNN "Package"
+F 8 "Panasonic Electronic Components" H 1650 5850 50  0001 C CNN "Manufacturer"
+F 9 "ERJ-PA2F4702X" H 1650 5850 50  0001 C CNN "Manufacturer Part Number"
+	1    1650 5850
 	1    0    0    -1  
 $EndComp
 $Comp
 L user_power:VDD #PWR0105
 U 1 1 60C3B2BC
-P 1750 5550
-F 0 "#PWR0105" H 1750 5400 50  0001 C CNN
-F 1 "VDD" H 1765 5723 50  0000 C CNN
-F 2 "" H 1750 5550 50  0001 C CNN
-F 3 "" H 1750 5550 50  0001 C CNN
-	1    1750 5550
+P 1650 5550
+F 0 "#PWR0105" H 1650 5400 50  0001 C CNN
+F 1 "VDD" H 1665 5723 50  0000 C CNN
+F 2 "" H 1650 5550 50  0001 C CNN
+F 3 "" H 1650 5550 50  0001 C CNN
+	1    1650 5550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 5550 1750 5600
+	1650 5550 1650 5600
 $Comp
 L lickport_array_module:0.1uF C3
 U 1 1 60C4BFAF
@@ -850,18 +850,18 @@ F 9 "ERJ-PA2F2201X" H 650 1100 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 6450 1750 6450
-Text Label 1650 6450 2    50   ~ 0
+	2000 6450 1650 6450
+Text Label 1550 6450 2    50   ~ 0
 ~CHANGE
 Wire Wire Line
 	1950 6100 1950 6150
 Wire Wire Line
 	1950 6150 2000 6150
 Wire Wire Line
-	1750 6100 1750 6450
-Connection ~ 1750 6450
+	1650 6100 1650 6450
+Connection ~ 1650 6450
 Wire Wire Line
-	1750 6450 1650 6450
+	1650 6450 1550 6450
 $Comp
 L user_power:VDD #PWR0111
 U 1 1 60C70253
@@ -1640,4 +1640,6 @@ NoConn ~ 4250 1500
 NoConn ~ 4250 1400
 NoConn ~ 4250 1300
 NoConn ~ 4250 1200
+Text Label 1950 6150 2    50   ~ 0
+RESET
 $EndSCHEMATC
