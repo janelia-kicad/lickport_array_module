@@ -24,7 +24,8 @@
       (path pcb 0  241300 -27940  241300 -149860  228600 -162560  50800 -162560
             38100 -149860  38100 -27940  50800 -15240  228600 -15240  241300 -27940)
     )
-    (via "Via[0-1]_889:635_um" "Via[0-1]_812.8:406.4_um" "Via[0-1]_914.4:609.6_um")
+    (via "Via[0-1]_889:635_um" "Via[0-1]_609.6:406.4_um" "Via[0-1]_812.8:406.4_um"
+       "Via[0-1]_914.4:609.6_um")
     (rule
       (width 406.4)
       (clearance 101.7)
@@ -273,28 +274,28 @@
   )
   (library
     (image lickport_array_module:TEENSY_4.0_HEADERS
-      (outline (path signal 177.8  5080 6350  -5080 6350))
-      (outline (path signal 177.8  5080 -3810  5080 6350))
-      (outline (path signal 177.8  -5080 -3810  5080 -3810))
-      (outline (path signal 177.8  -5080 6350  -5080 -3810))
+      (outline (path signal 279.4  6350 17780  6350 -17780))
+      (outline (path signal 279.4  -6350 17780  -6350 -17780))
+      (outline (path signal 381  8890 17780  -8890 17780))
+      (outline (path signal 381  8890 -17780  8890 17780))
+      (outline (path signal 381  -8890 -17780  8890 -17780))
+      (outline (path signal 381  -8890 17780  -8890 -17780))
+      (outline (path signal 381  3810 19050  3810 17780))
+      (outline (path signal 381  -3810 19050  3810 19050))
+      (outline (path signal 381  -3810 17780  -3810 19050))
+      (outline (path signal 381  -1270 -15240  1270 -15240))
+      (outline (path signal 381  -1270 -10160  -1270 -15240))
+      (outline (path signal 381  1270 -10160  -1270 -10160))
+      (outline (path signal 381  1270 -15240  1270 -10160))
       (outline (path signal 381  1270 -12700  1193.41 -13134.4  972.876 -13516.3  635 -13799.9
             220.533 -13950.7  -220.533 -13950.7  -635 -13799.9  -972.876 -13516.3
             -1193.41 -13134.4  -1270 -12700  -1193.41 -12265.6  -972.876 -11883.7
             -635 -11600.1  -220.533 -11449.3  220.533 -11449.3  635 -11600.1
             972.876 -11883.7  1193.41 -12265.6  1270 -12700))
-      (outline (path signal 381  1270 -15240  1270 -10160))
-      (outline (path signal 381  1270 -10160  -1270 -10160))
-      (outline (path signal 381  -1270 -10160  -1270 -15240))
-      (outline (path signal 381  -1270 -15240  1270 -15240))
-      (outline (path signal 381  -3810 17780  -3810 19050))
-      (outline (path signal 381  -3810 19050  3810 19050))
-      (outline (path signal 381  3810 19050  3810 17780))
-      (outline (path signal 381  -8890 17780  -8890 -17780))
-      (outline (path signal 381  -8890 -17780  8890 -17780))
-      (outline (path signal 381  8890 -17780  8890 17780))
-      (outline (path signal 381  8890 17780  -8890 17780))
-      (outline (path signal 279.4  -6350 17780  -6350 -17780))
-      (outline (path signal 279.4  6350 17780  6350 -17780))
+      (outline (path signal 177.8  -5080 6350  -5080 -3810))
+      (outline (path signal 177.8  -5080 -3810  5080 -3810))
+      (outline (path signal 177.8  5080 -3810  5080 6350))
+      (outline (path signal 177.8  5080 6350  -5080 6350))
       (pin Oval[A]Pad_2540x1524_um V_IN 7620 16510)
       (pin Oval[A]Pad_2540x1524_um @1 7620 13970)
       (pin Oval[A]Pad_2540x1524_um 3V3 7620 11430)
@@ -325,14 +326,14 @@
       (pin Rect[A]Pad_2540x1524_um GND -7620 16510)
     )
     (image lickport_array_module:BNC
-      (outline (path signal 381  7620 2540  7620 -12700))
-      (outline (path signal 381  -7620 2540  -7620 -12700))
-      (outline (path signal 381  -5080 2540  -5080 3302))
-      (outline (path signal 381  -5080 3302  5080 3302))
-      (outline (path signal 381  5080 3302  5080 2540))
-      (outline (path signal 381  -7620 -7620  7620 -7620))
-      (outline (path signal 381  -7620 2540  7620 2540))
       (outline (path signal 381  -7620 -12700  7620 -12700))
+      (outline (path signal 381  -7620 2540  7620 2540))
+      (outline (path signal 381  -7620 -7620  7620 -7620))
+      (outline (path signal 381  5080 3302  5080 2540))
+      (outline (path signal 381  -5080 3302  5080 3302))
+      (outline (path signal 381  -5080 2540  -5080 3302))
+      (outline (path signal 381  -7620 2540  -7620 -12700))
+      (outline (path signal 381  7620 2540  7620 -12700))
       (pin Round[A]Pad_3000_um @1 -5080 -10160)
       (pin Round[A]Pad_1750_um 2 -2540 -5080)
       (pin Rect[A]Pad_1750x1750_um 1 0 -5080)
@@ -340,10 +341,10 @@
       (pin Round[A]Pad_3000_um @3 -5080 0)
     )
     (image lickport_array_module:DCJACK_3PIN_SMD_VERT
-      (outline (path signal 400  -6500 -9800  6500 -9800))
-      (outline (path signal 400  -6500 5900  6500 5900))
-      (outline (path signal 400  -6500 5900  -6500 -9800))
       (outline (path signal 400  6500 5900  6500 -9800))
+      (outline (path signal 400  -6500 5900  -6500 -9800))
+      (outline (path signal 400  -6500 5900  6500 5900))
+      (outline (path signal 400  -6500 -9800  6500 -9800))
       (pin Rect[T]Pad_3750x5000_um 3 2375 -11300)
       (pin Rect[T]Pad_3750x5000_um 2 -2375 -11300)
       (pin Rect[T]Pad_5000x5200_um 1 0 7600)
@@ -352,6 +353,44 @@
       (pin Round[A]Pad_4500_um @3 0 0)
     )
     (image "lickport_interface:CLIPPARD_NPV2-1C-23-24"
+      (outline (path signal 279.4  -898.026 -2694.08  -8082.23 -9878.28))
+      (outline (path signal 279.4  -2694.08 -898.026  -898.026 -2694.08))
+      (outline (path signal 279.4  -9878.28 -8082.23  -2694.08 -898.026))
+      (outline (path signal 279.4  2694.08 898.026  9878.28 8082.23))
+      (outline (path signal 279.4  898.026 2694.08  2694.08 898.026))
+      (outline (path signal 279.4  8082.23 9878.28  898.026 2694.08))
+      (outline (path signal 279.4  9878.28 -8082.23  8082.23 -9878.28))
+      (outline (path signal 279.4  7184.2 -8980.26  8082.23 -9878.28))
+      (outline (path signal 279.4  8980.26 -7184.2  7184.2 -8980.26))
+      (outline (path signal 279.4  9878.28 -8082.23  8980.26 -7184.2))
+      (outline (path signal 127  2540 8728.81  2460.2 8097.14  2225.82 7505.15  1851.58 6990.06
+            1361 6584.22  784.903 6313.13  159.488 6193.82  -475.948 6233.8
+            -1081.48 6430.55  -1619.06 6771.71  -2054.9 7235.84  -2361.63 7793.77
+            -2519.97 8410.46  -2519.97 9047.16  -2361.63 9663.84  -2054.9 10221.8
+            -1619.06 10685.9  -1081.48 11027.1  -475.948 11223.8  159.488 11263.8
+            784.903 11144.5  1361 10873.4  1851.58 10467.6  2225.82 9952.46
+            2460.2 9360.48  2540 8728.81))
+      (outline (path signal 127  11268.8 0  11189 -631.672  10954.6 -1223.65  10580.4 -1738.75
+            10089.8 -2144.59  9513.71 -2415.68  8888.3 -2534.99  8252.86 -2495.01
+            7647.33 -2298.26  7109.75 -1957.1  6673.91 -1492.97  6367.18 -935.036
+            6208.84 -318.346  6208.84 318.346  6367.18 935.036  6673.91 1492.97
+            7109.75 1957.1  7647.33 2298.26  8252.86 2495.01  8888.3 2534.99
+            9513.71 2415.68  10089.8 2144.59  10580.4 1738.75  10954.6 1223.65
+            11189 631.672  11268.8 0))
+      (outline (path signal 127  2540 -8728.81  2460.2 -9360.48  2225.82 -9952.46  1851.58 -10467.6
+            1361 -10873.4  784.903 -11144.5  159.488 -11263.8  -475.948 -11223.8
+            -1081.48 -11027.1  -1619.06 -10685.9  -2054.9 -10221.8  -2361.63 -9663.84
+            -2519.97 -9047.16  -2519.97 -8410.46  -2361.63 -7793.77  -2054.9 -7235.84
+            -1619.06 -6771.71  -1081.48 -6430.55  -475.948 -6233.8  159.488 -6193.82
+            784.903 -6313.13  1361 -6584.22  1851.58 -6990.06  2225.82 -7505.15
+            2460.2 -8097.14  2540 -8728.81))
+      (outline (path signal 127  -6188.81 0  -6268.61 -631.672  -6502.99 -1223.65  -6877.23 -1738.75
+            -7367.81 -2144.59  -7943.91 -2415.68  -8569.32 -2534.99  -9204.76 -2495.01
+            -9810.29 -2298.26  -10347.9 -1957.1  -10783.7 -1492.97  -11090.4 -935.036
+            -11248.8 -318.346  -11248.8 318.346  -11090.4 935.036  -10783.7 1492.97
+            -10347.9 1957.1  -9810.29 2298.26  -9204.76 2495.01  -8569.32 2534.99
+            -7943.91 2415.68  -7367.81 2144.59  -6877.23 1738.75  -6502.99 1223.65
+            -6268.61 631.672  -6188.81 0))
       (outline (path signal 279.4  12700 0  12620.1 -1421.95  12381.6 -2826.02  11987.3 -4194.54
             11442.3 -5510.32  10753.4 -6756.81  9929.26 -7918.32  8980.26 -8980.26
             7918.32 -9929.26  6756.81 -10753.4  5510.32 -11442.3  4194.54 -11987.3
@@ -383,171 +422,133 @@
             7918.32 9929.26  8980.26 8980.26  9929.26 7918.32  10753.4 6756.81
             11442.3 5510.32  11987.3 4194.54  12381.6 2826.02  12620.1 1421.95
             12700 0))
-      (outline (path signal 127  -6188.81 0  -6268.61 -631.672  -6502.99 -1223.65  -6877.23 -1738.75
-            -7367.81 -2144.59  -7943.91 -2415.68  -8569.32 -2534.99  -9204.76 -2495.01
-            -9810.29 -2298.26  -10347.9 -1957.1  -10783.7 -1492.97  -11090.4 -935.036
-            -11248.8 -318.346  -11248.8 318.346  -11090.4 935.036  -10783.7 1492.97
-            -10347.9 1957.1  -9810.29 2298.26  -9204.76 2495.01  -8569.32 2534.99
-            -7943.91 2415.68  -7367.81 2144.59  -6877.23 1738.75  -6502.99 1223.65
-            -6268.61 631.672  -6188.81 0))
-      (outline (path signal 127  2540 -8728.81  2460.2 -9360.48  2225.82 -9952.46  1851.58 -10467.6
-            1361 -10873.4  784.903 -11144.5  159.488 -11263.8  -475.948 -11223.8
-            -1081.48 -11027.1  -1619.06 -10685.9  -2054.9 -10221.8  -2361.63 -9663.84
-            -2519.97 -9047.16  -2519.97 -8410.46  -2361.63 -7793.77  -2054.9 -7235.84
-            -1619.06 -6771.71  -1081.48 -6430.55  -475.948 -6233.8  159.488 -6193.82
-            784.903 -6313.13  1361 -6584.22  1851.58 -6990.06  2225.82 -7505.15
-            2460.2 -8097.14  2540 -8728.81))
-      (outline (path signal 127  11268.8 0  11189 -631.672  10954.6 -1223.65  10580.4 -1738.75
-            10089.8 -2144.59  9513.71 -2415.68  8888.3 -2534.99  8252.86 -2495.01
-            7647.33 -2298.26  7109.75 -1957.1  6673.91 -1492.97  6367.18 -935.036
-            6208.84 -318.346  6208.84 318.346  6367.18 935.036  6673.91 1492.97
-            7109.75 1957.1  7647.33 2298.26  8252.86 2495.01  8888.3 2534.99
-            9513.71 2415.68  10089.8 2144.59  10580.4 1738.75  10954.6 1223.65
-            11189 631.672  11268.8 0))
-      (outline (path signal 127  2540 8728.81  2460.2 8097.14  2225.82 7505.15  1851.58 6990.06
-            1361 6584.22  784.903 6313.13  159.488 6193.82  -475.948 6233.8
-            -1081.48 6430.55  -1619.06 6771.71  -2054.9 7235.84  -2361.63 7793.77
-            -2519.97 8410.46  -2519.97 9047.16  -2361.63 9663.84  -2054.9 10221.8
-            -1619.06 10685.9  -1081.48 11027.1  -475.948 11223.8  159.488 11263.8
-            784.903 11144.5  1361 10873.4  1851.58 10467.6  2225.82 9952.46
-            2460.2 9360.48  2540 8728.81))
-      (outline (path signal 279.4  9878.28 -8082.23  8980.26 -7184.2))
-      (outline (path signal 279.4  8980.26 -7184.2  7184.2 -8980.26))
-      (outline (path signal 279.4  7184.2 -8980.26  8082.23 -9878.28))
-      (outline (path signal 279.4  9878.28 -8082.23  8082.23 -9878.28))
-      (outline (path signal 279.4  8082.23 9878.28  898.026 2694.08))
-      (outline (path signal 279.4  898.026 2694.08  2694.08 898.026))
-      (outline (path signal 279.4  2694.08 898.026  9878.28 8082.23))
-      (outline (path signal 279.4  -9878.28 -8082.23  -2694.08 -898.026))
-      (outline (path signal 279.4  -2694.08 -898.026  -898.026 -2694.08))
-      (outline (path signal 279.4  -898.026 -2694.08  -8082.23 -9878.28))
       (pin Round[A]Pad_3810_um (rotate 315) @1 0 8728.81)
       (pin Round[A]Pad_3810_um (rotate 315) @2 8728.81 0)
       (pin Round[A]Pad_3810_um (rotate 315) @3 0 -8728.81)
       (pin Round[A]Pad_3810_um (rotate 315) @4 -8728.81 0)
     )
     (image lickport_interface:TERM_BLK_ANG_2_PIN_3.5MM_PITCH
-      (outline (path signal 279.4  -1750 7500  -2250 8500))
-      (outline (path signal 279.4  -1250 8500  -1750 7500))
-      (outline (path signal 279.4  -2250 8500  -1250 8500))
-      (outline (path signal 300  -3500 8800  3500 8800))
-      (outline (path signal 300  3500 8800  3500 -2400))
-      (outline (path signal 300  -3500 -2400  3500 -2400))
       (outline (path signal 300  -3500 8800  -3500 -2400))
+      (outline (path signal 300  -3500 -2400  3500 -2400))
+      (outline (path signal 300  3500 8800  3500 -2400))
+      (outline (path signal 300  -3500 8800  3500 8800))
+      (outline (path signal 279.4  -2250 8500  -1250 8500))
+      (outline (path signal 279.4  -1250 8500  -1750 7500))
+      (outline (path signal 279.4  -1750 7500  -2250 8500))
       (pin Oval[A]Pad_2500x3500_um 2 1750 0)
       (pin Rect[A]Pad_2500x3500_um 1 -1750 0)
     )
     (image lickport_array_module:SM0805
-      (outline (path signal 177.8  889 635  889 1524))
-      (outline (path signal 177.8  889 1524  -889 1524))
-      (outline (path signal 177.8  -889 1524  -889 635))
-      (outline (path signal 177.8  889 -635  889 -1524))
-      (outline (path signal 177.8  889 -1524  -889 -1524))
       (outline (path signal 177.8  -889 -1524  -889 -635))
+      (outline (path signal 177.8  889 -1524  -889 -1524))
+      (outline (path signal 177.8  889 -635  889 -1524))
+      (outline (path signal 177.8  -889 1524  -889 635))
+      (outline (path signal 177.8  889 1524  -889 1524))
+      (outline (path signal 177.8  889 635  889 1524))
       (pin Rect[T]Pad_787.4x1600.2_um (rotate 270) 1 0 1041.4)
       (pin Rect[T]Pad_787.4x1600.2_um (rotate 270) 2 0 -1041.4)
     )
     (image lickport_array_module:SM0402_POL
-      (outline (path signal 177.8  -400 -850  -400 -200))
-      (outline (path signal 177.8  400 -850  -400 -850))
-      (outline (path signal 177.8  400 -200  400 -850))
-      (outline (path signal 177.8  -400 850  -400 200))
-      (outline (path signal 177.8  400 850  -400 850))
-      (outline (path signal 177.8  400 200  400 850))
       (outline (path signal 177.8  400 1143  -400 1143))
+      (outline (path signal 177.8  400 200  400 850))
+      (outline (path signal 177.8  400 850  -400 850))
+      (outline (path signal 177.8  -400 850  -400 200))
+      (outline (path signal 177.8  400 -200  400 -850))
+      (outline (path signal 177.8  400 -850  -400 -850))
+      (outline (path signal 177.8  -400 -850  -400 -200))
       (pin Rect[T]Pad_600x700_um (rotate 270) 2 0 -500)
       (pin Rect[T]Pad_600x700_um (rotate 270) 1 0 500)
     )
     (image lickport_interface:SM0402
-      (outline (path signal 177.8  400 200  400 850))
-      (outline (path signal 177.8  400 850  -400 850))
-      (outline (path signal 177.8  -400 850  -400 200))
-      (outline (path signal 177.8  400 -200  400 -850))
-      (outline (path signal 177.8  400 -850  -400 -850))
       (outline (path signal 177.8  -400 -850  -400 -200))
+      (outline (path signal 177.8  400 -850  -400 -850))
+      (outline (path signal 177.8  400 -200  400 -850))
+      (outline (path signal 177.8  -400 850  -400 200))
+      (outline (path signal 177.8  400 850  -400 850))
+      (outline (path signal 177.8  400 200  400 850))
       (pin Rect[T]Pad_600x700_um (rotate 270) 2 0 -500)
       (pin Rect[T]Pad_600x700_um (rotate 270) 1 0 500)
     )
     (image lickport_interface:SM0402_POL
-      (outline (path signal 177.8  400 1143  -400 1143))
-      (outline (path signal 177.8  400 200  400 850))
-      (outline (path signal 177.8  400 850  -400 850))
-      (outline (path signal 177.8  -400 850  -400 200))
-      (outline (path signal 177.8  400 -200  400 -850))
-      (outline (path signal 177.8  400 -850  -400 -850))
       (outline (path signal 177.8  -400 -850  -400 -200))
+      (outline (path signal 177.8  400 -850  -400 -850))
+      (outline (path signal 177.8  400 -200  400 -850))
+      (outline (path signal 177.8  -400 850  -400 200))
+      (outline (path signal 177.8  400 850  -400 850))
+      (outline (path signal 177.8  400 200  400 850))
+      (outline (path signal 177.8  400 1143  -400 1143))
       (pin Rect[T]Pad_600x700_um (rotate 270) 1 0 500)
       (pin Rect[T]Pad_600x700_um (rotate 270) 2 0 -500)
     )
     (image lickport_interface:SM0402::1
-      (outline (path signal 177.8  -400 -850  -400 -200))
-      (outline (path signal 177.8  400 -850  -400 -850))
-      (outline (path signal 177.8  400 -200  400 -850))
-      (outline (path signal 177.8  -400 850  -400 200))
-      (outline (path signal 177.8  400 850  -400 850))
       (outline (path signal 177.8  400 200  400 850))
+      (outline (path signal 177.8  400 850  -400 850))
+      (outline (path signal 177.8  -400 850  -400 200))
+      (outline (path signal 177.8  400 -200  400 -850))
+      (outline (path signal 177.8  400 -850  -400 -850))
+      (outline (path signal 177.8  -400 -850  -400 -200))
       (pin Rect[T]Pad_600x700_um (rotate 270) 1 0 500)
       (pin Rect[T]Pad_600x700_um (rotate 270) 2 0 -500)
     )
     (image lickport_array_module:CFP15
-      (outline (path signal 228.6  -2300 3750  2300 3750))
-      (outline (path signal 228.6  2300 3750  2300 -3750))
-      (outline (path signal 228.6  2300 -3750  -2300 -3750))
       (outline (path signal 228.6  -2300 -3750  -2300 3750))
+      (outline (path signal 228.6  2300 -3750  -2300 -3750))
+      (outline (path signal 228.6  2300 3750  2300 -3750))
+      (outline (path signal 228.6  -2300 3750  2300 3750))
       (pin Rect[T]Pad_3800x4960_um 1 0 -1020)
       (pin Rect[T]Pad_1600x1440_um 2 -1065 2780)
       (pin Rect[T]Pad_1600x1440_um 2@1 1065 2780)
     )
     (image lickport_array_module:FIDUCIAL
+      (outline (path signal 100  500 0  420.627 -270.32  207.708 -454.816  -71.157 -494.911
+            -327.43 -377.875  -479.746 -140.866  -479.746 140.866  -327.43 377.875
+            -71.157 494.911  207.708 454.816  420.627 270.32  500 0))
       (outline (path signal 50  750 0  675.727 -325.413  467.617 -586.374  166.891 -731.196
             -166.891 -731.196  -467.617 -586.374  -675.727 -325.413  -750 0
             -675.727 325.413  -467.617 586.374  -166.891 731.196  166.891 731.196
             467.617 586.374  675.727 325.413  750 0))
-      (outline (path signal 100  500 0  420.627 -270.32  207.708 -454.816  -71.157 -494.911
-            -327.43 -377.875  -479.746 -140.866  -479.746 140.866  -327.43 377.875
-            -71.157 494.911  207.708 454.816  420.627 270.32  500 0))
       (pin Round[T]Pad_500_um ~ 0 0)
     )
     (image lickport_array_module:FIDUCIAL::1
-      (outline (path signal 100  500 0  420.627 -270.32  207.708 -454.816  -71.157 -494.911
-            -327.43 -377.875  -479.746 -140.866  -479.746 140.866  -327.43 377.875
-            -71.157 494.911  207.708 454.816  420.627 270.32  500 0))
       (outline (path signal 50  750 0  675.727 -325.413  467.617 -586.374  166.891 -731.196
             -166.891 -731.196  -467.617 -586.374  -675.727 -325.413  -750 0
             -675.727 325.413  -467.617 586.374  -166.891 731.196  166.891 731.196
             467.617 586.374  675.727 325.413  750 0))
+      (outline (path signal 100  500 0  420.627 -270.32  207.708 -454.816  -71.157 -494.911
+            -327.43 -377.875  -479.746 -140.866  -479.746 140.866  -327.43 377.875
+            -71.157 494.911  207.708 454.816  420.627 270.32  500 0))
       (pin Round[T]Pad_500_um ~ 0 0)
     )
     (image lickport_array_module:LED0805
-      (outline (path signal 127  -127 381  -127 127))
-      (outline (path signal 127  127 381  -127 381))
-      (outline (path signal 127  127 127  127 381))
-      (outline (path signal 127  -127 127  127 127))
-      (outline (path signal 127  -635 -381  635 -381))
-      (outline (path signal 127  0 0  635 -381))
       (outline (path signal 127  -635 -381  0 0))
+      (outline (path signal 127  0 0  635 -381))
+      (outline (path signal 127  -635 -381  635 -381))
+      (outline (path signal 127  -127 127  127 127))
+      (outline (path signal 127  127 127  127 381))
+      (outline (path signal 127  127 381  -127 381))
+      (outline (path signal 127  -127 381  -127 127))
       (pin Rect[T]Pad_1193.8x1193.8_um (rotate 90) 1 0 -1054.1)
       (pin Rect[T]Pad_1193.8x1193.8_um (rotate 90) 2 0 1054.1)
     )
     (image lickport_interface:LED0805
-      (outline (path signal 127  -127 381  -127 127))
-      (outline (path signal 127  127 381  -127 381))
-      (outline (path signal 127  127 127  127 381))
-      (outline (path signal 127  -127 127  127 127))
-      (outline (path signal 127  -635 -381  635 -381))
-      (outline (path signal 127  0 0  635 -381))
       (outline (path signal 127  -635 -381  0 0))
+      (outline (path signal 127  0 0  635 -381))
+      (outline (path signal 127  -635 -381  635 -381))
+      (outline (path signal 127  -127 127  127 127))
+      (outline (path signal 127  127 127  127 381))
+      (outline (path signal 127  127 381  -127 381))
+      (outline (path signal 127  -127 381  -127 127))
       (pin Rect[T]Pad_1193.8x1193.8_um (rotate 90) 2 0 1054.1)
       (pin Rect[T]Pad_1193.8x1193.8_um (rotate 90) 1 0 -1054.1)
     )
     (image lickport_interface:LED0805::1
-      (outline (path signal 127  -635 -381  0 0))
-      (outline (path signal 127  0 0  635 -381))
-      (outline (path signal 127  -635 -381  635 -381))
-      (outline (path signal 127  -127 127  127 127))
-      (outline (path signal 127  127 127  127 381))
-      (outline (path signal 127  127 381  -127 381))
       (outline (path signal 127  -127 381  -127 127))
+      (outline (path signal 127  127 381  -127 381))
+      (outline (path signal 127  127 127  127 381))
+      (outline (path signal 127  -127 127  127 127))
+      (outline (path signal 127  -635 -381  635 -381))
+      (outline (path signal 127  0 0  635 -381))
+      (outline (path signal 127  -635 -381  0 0))
       (pin Rect[T]Pad_1193.8x1193.8_um (rotate 90) 1 0 -1054.1)
       (pin Rect[T]Pad_1193.8x1193.8_um (rotate 90) 2 0 1054.1)
     )
@@ -562,13 +563,6 @@
       (pin Round[A]Pad_3556_um 1 0 0)
     )
     (image lickport_interface:RECEPTACLE_2MM
-      (outline (path signal 177.8  2755.9 0  2675.82 -659.53  2440.23 -1280.73  2062.82 -1827.5
-            1565.53 -2268.06  977.256 -2576.81  332.187 -2735.81  -332.187 -2735.81
-            -977.256 -2576.81  -1565.53 -2268.06  -2062.82 -1827.5  -2440.23 -1280.73
-            -2675.82 -659.53  -2755.9 0  -2675.82 659.53  -2440.23 1280.73
-            -2062.82 1827.5  -1565.53 2268.06  -977.256 2576.81  -332.187 2735.81
-            332.187 2735.81  977.256 2576.81  1565.53 2268.06  2062.82 1827.5
-            2440.23 1280.73  2675.82 659.53  2755.9 0))
       (outline (path signal 76.2  2374.9 0  2293.98 -614.669  2056.72 -1187.45  1679.31 -1679.31
             1187.45 -2056.72  614.669 -2293.98  0 -2374.9  -614.669 -2293.98
             -1187.45 -2056.72  -1679.31 -1679.31  -2056.72 -1187.45  -2293.98 -614.669
@@ -576,16 +570,16 @@
             -1187.45 2056.72  -614.669 2293.98  0 2374.9  614.669 2293.98
             1187.45 2056.72  1679.31 1679.31  2056.72 1187.45  2293.98 614.669
             2374.9 0))
+      (outline (path signal 177.8  2755.9 0  2675.82 -659.53  2440.23 -1280.73  2062.82 -1827.5
+            1565.53 -2268.06  977.256 -2576.81  332.187 -2735.81  -332.187 -2735.81
+            -977.256 -2576.81  -1565.53 -2268.06  -2062.82 -1827.5  -2440.23 -1280.73
+            -2675.82 -659.53  -2755.9 0  -2675.82 659.53  -2440.23 1280.73
+            -2062.82 1827.5  -1565.53 2268.06  -977.256 2576.81  -332.187 2735.81
+            332.187 2735.81  977.256 2576.81  1565.53 2268.06  2062.82 1827.5
+            2440.23 1280.73  2675.82 659.53  2755.9 0))
       (pin Round[A]Pad_5511.8_um 1 0 0)
     )
     (image lickport_interface:RECEPTACLE_2MM::1
-      (outline (path signal 76.2  2374.9 0  2293.98 -614.669  2056.72 -1187.45  1679.31 -1679.31
-            1187.45 -2056.72  614.669 -2293.98  0 -2374.9  -614.669 -2293.98
-            -1187.45 -2056.72  -1679.31 -1679.31  -2056.72 -1187.45  -2293.98 -614.669
-            -2374.9 0  -2293.98 614.669  -2056.72 1187.45  -1679.31 1679.31
-            -1187.45 2056.72  -614.669 2293.98  0 2374.9  614.669 2293.98
-            1187.45 2056.72  1679.31 1679.31  2056.72 1187.45  2293.98 614.669
-            2374.9 0))
       (outline (path signal 177.8  2755.9 0  2675.82 -659.53  2440.23 -1280.73  2062.82 -1827.5
             1565.53 -2268.06  977.256 -2576.81  332.187 -2735.81  -332.187 -2735.81
             -977.256 -2576.81  -1565.53 -2268.06  -2062.82 -1827.5  -2440.23 -1280.73
@@ -593,45 +587,52 @@
             -2062.82 1827.5  -1565.53 2268.06  -977.256 2576.81  -332.187 2735.81
             332.187 2735.81  977.256 2576.81  1565.53 2268.06  2062.82 1827.5
             2440.23 1280.73  2675.82 659.53  2755.9 0))
+      (outline (path signal 76.2  2374.9 0  2293.98 -614.669  2056.72 -1187.45  1679.31 -1679.31
+            1187.45 -2056.72  614.669 -2293.98  0 -2374.9  -614.669 -2293.98
+            -1187.45 -2056.72  -1679.31 -1679.31  -2056.72 -1187.45  -2293.98 -614.669
+            -2374.9 0  -2293.98 614.669  -2056.72 1187.45  -1679.31 1679.31
+            -1187.45 2056.72  -614.669 2293.98  0 2374.9  614.669 2293.98
+            1187.45 2056.72  1679.31 1679.31  2056.72 1187.45  2293.98 614.669
+            2374.9 0))
       (pin Round[A]Pad_5511.8_um 1 0 0)
     )
     (image lickport_array_module:SM0402
-      (outline (path signal 177.8  -400 -850  -400 -200))
-      (outline (path signal 177.8  400 -850  -400 -850))
-      (outline (path signal 177.8  400 -200  400 -850))
-      (outline (path signal 177.8  -400 850  -400 200))
-      (outline (path signal 177.8  400 850  -400 850))
       (outline (path signal 177.8  400 200  400 850))
+      (outline (path signal 177.8  400 850  -400 850))
+      (outline (path signal 177.8  -400 850  -400 200))
+      (outline (path signal 177.8  400 -200  400 -850))
+      (outline (path signal 177.8  400 -850  -400 -850))
+      (outline (path signal 177.8  -400 -850  -400 -200))
       (pin Rect[T]Pad_600x700_um (rotate 270) 2 0 -500)
       (pin Rect[T]Pad_600x700_um (rotate 270) 1 0 500)
     )
     (image lickport_array_module:SM0402::1
-      (outline (path signal 177.8  400 200  400 850))
-      (outline (path signal 177.8  400 850  -400 850))
-      (outline (path signal 177.8  -400 850  -400 200))
-      (outline (path signal 177.8  400 -200  400 -850))
-      (outline (path signal 177.8  400 -850  -400 -850))
       (outline (path signal 177.8  -400 -850  -400 -200))
+      (outline (path signal 177.8  400 -850  -400 -850))
+      (outline (path signal 177.8  400 -200  400 -850))
+      (outline (path signal 177.8  -400 850  -400 200))
+      (outline (path signal 177.8  400 850  -400 850))
+      (outline (path signal 177.8  400 200  400 850))
       (pin Rect[T]Pad_600x700_um (rotate 270) 1 0 500)
       (pin Rect[T]Pad_600x700_um (rotate 270) 2 0 -500)
     )
     (image "lickport_array_module:QFN-20-1EP_3x3mm_P0.45mm_EP1.6x1.6mm"
-      (outline (path signal 120  1285 1610  1610 1610))
-      (outline (path signal 120  1610 1610  1610 1285))
-      (outline (path signal 120  -1285 -1610  -1610 -1610))
-      (outline (path signal 120  -1610 -1610  -1610 -1285))
-      (outline (path signal 120  1285 -1610  1610 -1610))
-      (outline (path signal 120  1610 -1610  1610 -1285))
-      (outline (path signal 120  -1285 1610  -1610 1610))
-      (outline (path signal 100  -750 1500  1500 1500))
-      (outline (path signal 100  1500 1500  1500 -1500))
-      (outline (path signal 100  1500 -1500  -1500 -1500))
-      (outline (path signal 100  -1500 -1500  -1500 750))
-      (outline (path signal 100  -1500 750  -750 1500))
-      (outline (path signal 50  -2120 2120  -2120 -2120))
-      (outline (path signal 50  -2120 -2120  2120 -2120))
-      (outline (path signal 50  2120 -2120  2120 2120))
       (outline (path signal 50  2120 2120  -2120 2120))
+      (outline (path signal 50  2120 -2120  2120 2120))
+      (outline (path signal 50  -2120 -2120  2120 -2120))
+      (outline (path signal 50  -2120 2120  -2120 -2120))
+      (outline (path signal 100  -1500 750  -750 1500))
+      (outline (path signal 100  -1500 -1500  -1500 750))
+      (outline (path signal 100  1500 -1500  -1500 -1500))
+      (outline (path signal 100  1500 1500  1500 -1500))
+      (outline (path signal 100  -750 1500  1500 1500))
+      (outline (path signal 120  -1285 1610  -1610 1610))
+      (outline (path signal 120  1610 -1610  1610 -1285))
+      (outline (path signal 120  1285 -1610  1610 -1610))
+      (outline (path signal 120  -1610 -1610  -1610 -1285))
+      (outline (path signal 120  -1285 -1610  -1610 -1610))
+      (outline (path signal 120  1610 1610  1610 1285))
+      (outline (path signal 120  1285 1610  1610 1610))
       (pin Cust[T]Pad_143.934x143.934_250x_850_38_um_9F0DBD0GEC7E86C8730E1E3B0B961FD2 1 -1450 900)
       (pin RoundRect[T]Pad_850x250_62.738_um 2 -1450 450)
       (pin RoundRect[T]Pad_850x250_62.738_um 3 -1450 0)
@@ -655,11 +656,11 @@
       (pin Rect[T]Pad_1600x1600_um 21 0 0)
     )
     (image lickport_interface:SOIC_8
+      (outline (path signal 381  1905 -2540  -1905 -2540))
+      (outline (path signal 381  1905 2540  -1905 2540))
       (outline (path signal 381  -508 1651  -580.765 1427.05  -771.265 1288.65  -1006.74 1288.65
             -1197.23 1427.05  -1270 1651  -1197.23 1874.95  -1006.74 2013.35
             -771.265 2013.35  -580.765 1874.95  -508 1651))
-      (outline (path signal 381  1905 2540  -1905 2540))
-      (outline (path signal 381  1905 -2540  -1905 -2540))
       (pin Rect[T]Pad_599.44x1549.4_um (rotate 270) 8 2692.4 1905)
       (pin Rect[T]Pad_599.44x1549.4_um (rotate 270) 7 2692.4 635)
       (pin Rect[T]Pad_599.44x1549.4_um (rotate 270) 6 2692.4 -635)
@@ -670,11 +671,11 @@
       (pin Rect[T]Pad_599.44x1549.4_um (rotate 270) 1 -2692.4 1905)
     )
     (image lickport_interface:SOIC_8::1
-      (outline (path signal 381  1905 -2540  -1905 -2540))
-      (outline (path signal 381  1905 2540  -1905 2540))
       (outline (path signal 381  -508 1651  -580.765 1427.05  -771.265 1288.65  -1006.74 1288.65
             -1197.23 1427.05  -1270 1651  -1197.23 1874.95  -1006.74 2013.35
             -771.265 2013.35  -580.765 1874.95  -508 1651))
+      (outline (path signal 381  1905 2540  -1905 2540))
+      (outline (path signal 381  1905 -2540  -1905 -2540))
       (pin Rect[T]Pad_599.44x1549.4_um (rotate 270) 1 -2692.4 1905)
       (pin Rect[T]Pad_599.44x1549.4_um (rotate 270) 2 -2692.4 635)
       (pin Rect[T]Pad_599.44x1549.4_um (rotate 270) 3 -2692.4 -635)
@@ -911,6 +912,11 @@
     (padstack "Via[0-1]_889:635_um"
       (shape (circle F.Cu 889))
       (shape (circle B.Cu 889))
+      (attach off)
+    )
+    (padstack "Via[0-1]_609.6:406.4_um"
+      (shape (circle F.Cu 609.6))
+      (shape (circle B.Cu 609.6))
       (attach off)
     )
     (padstack "Via[0-1]_812.8:406.4_um"
@@ -1291,9 +1297,7 @@
     (net /lickport_interface_11/SENSE
       (pins P14-1 R53-1)
     )
-    (class kicad_default "" "Net-(P10-Pad1)" "Net-(P11-Pad1)" "Net-(P12-Pad1)"
-      "Net-(P13-Pad1)" "Net-(P14-Pad1)" "Net-(P3-Pad1)" "Net-(P4-Pad1)" "Net-(P5-Pad1)"
-      "Net-(P6-Pad1)" "Net-(P7-Pad1)" "Net-(P8-Pad1)" "Net-(P9-Pad1)"
+    (class kicad_default ""
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -1302,11 +1306,20 @@
         (clearance 101.7)
       )
     )
-    (class POWER /lickport_interface_0/SH /lickport_interface_1/SH /lickport_interface_10/SH
+    (class HIGHPOWER /lickport_interface_0/SH /lickport_interface_1/SH /lickport_interface_10/SH
       /lickport_interface_11/SH /lickport_interface_2/SH /lickport_interface_3/SH
       /lickport_interface_4/SH /lickport_interface_5/SH /lickport_interface_6/SH
       /lickport_interface_7/SH /lickport_interface_8/SH /lickport_interface_9/SH
-      GND VAA VCC VDD
+      VAA VCC
+      (circuit
+        (use_via Via[0-1]_609.6:406.4_um)
+      )
+      (rule
+        (width 609.6)
+        (clearance 203.3)
+      )
+    )
+    (class POWER GND VDD
       (circuit
         (use_via Via[0-1]_812.8:406.4_um)
       )
@@ -1327,33 +1340,24 @@
         (clearance 203.3)
       )
     )
-    (class SIGNAL /LICK_DETECTED /SCL /SDA /SOLENOID_0 /SOLENOID_1 /SOLENOID_10
-      /SOLENOID_11 /SOLENOID_2 /SOLENOID_3 /SOLENOID_4 /SOLENOID_5 /SOLENOID_6
-      /SOLENOID_7 /SOLENOID_8 /SOLENOID_9 /SYNC /TOUCH_0 /TOUCH_1 /TOUCH_10
-      /TOUCH_11 /TOUCH_2 /TOUCH_3 /TOUCH_4 /TOUCH_5 /TOUCH_6 /TOUCH_7 /TOUCH_8
-      /TOUCH_9 /~CHANGE "Net-(C11-Pad1)" "Net-(C13-Pad1)" "Net-(C15-Pad1)"
-      "Net-(C17-Pad1)" "Net-(C19-Pad1)" "Net-(C21-Pad1)" "Net-(C23-Pad1)"
-      "Net-(C25-Pad1)" "Net-(C27-Pad1)" "Net-(C5-Pad1)" "Net-(C7-Pad1)" "Net-(C9-Pad1)"
-      "Net-(D10-Pad1)" "Net-(D12-Pad1)" "Net-(D14-Pad1)" "Net-(D16-Pad1)"
-      "Net-(D18-Pad1)" "Net-(D2-Pad1)" "Net-(D20-Pad1)" "Net-(D22-Pad1)" "Net-(D24-Pad1)"
-      "Net-(D26-Pad1)" "Net-(D4-Pad1)" "Net-(D6-Pad1)" "Net-(D8-Pad1)" "Net-(L1-Pad1)"
-      "Net-(L10-Pad1)" "Net-(L11-Pad1)" "Net-(L12-Pad1)" "Net-(L13-Pad1)"
-      "Net-(L2-Pad1)" "Net-(L3-Pad1)" "Net-(L4-Pad1)" "Net-(L5-Pad1)" "Net-(L6-Pad1)"
-      "Net-(L7-Pad1)" "Net-(L8-Pad1)" "Net-(L9-Pad1)" "Net-(MH1-Pad1)" "Net-(MH10-Pad1)"
-      "Net-(MH11-Pad1)" "Net-(MH12-Pad1)" "Net-(MH13-Pad1)" "Net-(MH14-Pad1)"
-      "Net-(MH2-Pad1)" "Net-(MH3-Pad1)" "Net-(MH4-Pad1)" "Net-(MH5-Pad1)"
-      "Net-(MH6-Pad1)" "Net-(MH7-Pad1)" "Net-(MH8-Pad1)" "Net-(MH9-Pad1)"
-      "Net-(R10-Pad1)" "Net-(R11-Pad1)" "Net-(R14-Pad1)" "Net-(R15-Pad1)"
+    (class SIGNAL /SCL /SDA /SOLENOID_0 /SOLENOID_1 /SOLENOID_10 /SOLENOID_11
+      /SOLENOID_2 /SOLENOID_3 /SOLENOID_4 /SOLENOID_5 /SOLENOID_6 /SOLENOID_7
+      /SOLENOID_8 /SOLENOID_9 /SYNC /TOUCH_0 /TOUCH_1 /TOUCH_10 /TOUCH_11
+      /TOUCH_2 /TOUCH_3 /TOUCH_4 /TOUCH_5 /TOUCH_6 /TOUCH_7 /TOUCH_8 /TOUCH_9
+      /~CHANGE "Net-(C11-Pad1)" "Net-(C13-Pad1)" "Net-(C15-Pad1)" "Net-(C17-Pad1)"
+      "Net-(C19-Pad1)" "Net-(C21-Pad1)" "Net-(C23-Pad1)" "Net-(C25-Pad1)"
+      "Net-(C27-Pad1)" "Net-(C5-Pad1)" "Net-(C7-Pad1)" "Net-(C9-Pad1)" "Net-(D10-Pad1)"
+      "Net-(D12-Pad1)" "Net-(D14-Pad1)" "Net-(D16-Pad1)" "Net-(D18-Pad1)"
+      "Net-(D2-Pad1)" "Net-(D20-Pad1)" "Net-(D22-Pad1)" "Net-(D24-Pad1)" "Net-(D26-Pad1)"
+      "Net-(D4-Pad1)" "Net-(D6-Pad1)" "Net-(D8-Pad1)" "Net-(L1-Pad1)" "Net-(L10-Pad1)"
+      "Net-(L11-Pad1)" "Net-(L12-Pad1)" "Net-(L13-Pad1)" "Net-(L2-Pad1)" "Net-(L3-Pad1)"
+      "Net-(L4-Pad1)" "Net-(L5-Pad1)" "Net-(L6-Pad1)" "Net-(L7-Pad1)" "Net-(L8-Pad1)"
+      "Net-(L9-Pad1)" "Net-(R10-Pad1)" "Net-(R11-Pad1)" "Net-(R14-Pad1)" "Net-(R15-Pad1)"
       "Net-(R18-Pad1)" "Net-(R19-Pad1)" "Net-(R22-Pad1)" "Net-(R23-Pad1)"
       "Net-(R26-Pad1)" "Net-(R27-Pad1)" "Net-(R30-Pad1)" "Net-(R31-Pad1)"
       "Net-(R34-Pad1)" "Net-(R35-Pad1)" "Net-(R38-Pad1)" "Net-(R39-Pad1)"
       "Net-(R42-Pad1)" "Net-(R43-Pad1)" "Net-(R46-Pad1)" "Net-(R47-Pad1)"
       "Net-(R5-Pad2)" "Net-(R50-Pad1)" "Net-(R51-Pad1)" "Net-(R6-Pad1)" "Net-(R7-Pad1)"
-      "Net-(TEENSY1-Pad15)" "Net-(TEENSY1-Pad16)" "Net-(TEENSY1-Pad17)" "Net-(TEENSY1-Pad20)"
-      "Net-(TEENSY1-Pad21)" "Net-(TEENSY1-Pad22)" "Net-(TEENSY1-Pad23)" "Net-(TEENSY1-PadV_IN)"
-      "Net-(U1-Pad13)" "Net-(U10-Pad7)" "Net-(U11-Pad7)" "Net-(U12-Pad7)"
-      "Net-(U13-Pad7)" "Net-(U2-Pad7)" "Net-(U3-Pad7)" "Net-(U4-Pad7)" "Net-(U5-Pad7)"
-      "Net-(U6-Pad7)" "Net-(U7-Pad7)" "Net-(U8-Pad7)" "Net-(U9-Pad7)"
       (circuit
         (use_via Via[0-1]_812.8:406.4_um)
       )
