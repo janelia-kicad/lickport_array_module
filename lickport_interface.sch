@@ -409,7 +409,7 @@ $EndComp
 $Comp
 L lickport_interface:RECEPTACLE_2MM P3
 U 1 1 60BFA3BB
-P 6300 5150
+P 6300 5000
 AR Path="/5F238750/60BFA3BB" Ref="P3"  Part="1" 
 AR Path="/60D67065/60BFA3BB" Ref="P4"  Part="1" 
 AR Path="/60D6B9E7/60BFA3BB" Ref="P5"  Part="1" 
@@ -422,17 +422,17 @@ AR Path="/60D800A0/60BFA3BB" Ref="P11"  Part="1"
 AR Path="/60D800C5/60BFA3BB" Ref="P12"  Part="1" 
 AR Path="/60D800EA/60BFA3BB" Ref="P13"  Part="1" 
 AR Path="/60D8010F/60BFA3BB" Ref="P14"  Part="1" 
-F 0 "P3" H 6344 5146 60  0000 L CNN
-F 1 "RECEPTACLE_2MM" H 6344 5040 60  0000 L CNN
-F 2 "lickport_interface:RECEPTACLE_2MM" H 6300 6200 60  0001 C CNN
-F 3 "" H 6350 7900 60  0000 C CNN
-F 4 "Digi-Key" H 6300 6300 60  0001 C CNN "Vendor"
-F 5 "ED10170-ND" H 6300 6400 60  0001 C CNN "Vendor Part Number"
-F 6 "Pin Receptacle Connector 0.065in to 0.082in" H 6300 6500 60  0001 C CNN "Description"
-F 7 "1" H 6300 6550 50  0001 C CNN "Quantity"
-F 8 "Mill-Max Manufacturing Corp." H 6300 6550 50  0001 C CNN "Manufacturer"
-F 9 "9837-0-15-80-14-27-10-0" H 6300 6550 50  0001 C CNN "Manufacturer Part Number"
-	1    6300 5150
+F 0 "P3" H 6344 4996 60  0000 L CNN
+F 1 "RECEPTACLE_2MM" H 6344 4890 60  0000 L CNN
+F 2 "lickport_interface:RECEPTACLE_2MM" H 6300 6050 60  0001 C CNN
+F 3 "" H 6350 7750 60  0000 C CNN
+F 4 "Digi-Key" H 6300 6150 60  0001 C CNN "Vendor"
+F 5 "ED10170-ND" H 6300 6250 60  0001 C CNN "Vendor Part Number"
+F 6 "Pin Receptacle Connector 0.065in to 0.082in" H 6300 6350 60  0001 C CNN "Description"
+F 7 "1" H 6300 6400 50  0001 C CNN "Quantity"
+F 8 "Mill-Max Manufacturing Corp." H 6300 6400 50  0001 C CNN "Manufacturer"
+F 9 "9837-0-15-80-14-27-10-0" H 6300 6400 50  0001 C CNN "Manufacturer Part Number"
+	1    6300 5000
 	1    0    0    -1  
 $EndComp
 Text HLabel 5650 5250 0    50   UnSpc ~ 0
@@ -520,4 +520,8 @@ F 7 "1988956" H 5950 4700 50  0001 C CNN "Manufacturer Part Number"
 	1    5950 4700
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	6300 5250 6300 5100
+Text Label 6300 5250 0    50   ~ 0
+SENSE
 $EndSCHEMATC

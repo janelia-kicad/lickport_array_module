@@ -1,4 +1,4 @@
-update=Tue 15 Jun 2021 05:03:49 PM EDT
+update=Wed 16 Jun 2021 10:40:00 AM EDT
 version=1
 last_client=kicad
 [general]
@@ -258,6 +258,17 @@ dPairWidth=0.254
 dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
+Name=SENSE
+Clearance=0.2032
+TrackWidth=0.8128
+ViaDiameter=0.9144
+ViaDrill=0.6096
+uViaDiameter=0.508
+uViaDrill=0.127
+dPairWidth=0.254
+dPairGap=0.254
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
 Name=SIGNAL
 Clearance=0.1016
 TrackWidth=0.2032

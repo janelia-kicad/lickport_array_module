@@ -932,64 +932,50 @@ Wire Wire Line
 	800  1800 800  1850
 Text Label 1650 1000 2    50   ~ 0
 SOLENOID_0
-Text Label 1650 1300 2    50   ~ 0
+Text Label 1650 1100 2    50   ~ 0
 SOLENOID_1
-Text Label 1650 1600 2    50   ~ 0
-SOLENOID_2
-Text Label 1650 1900 2    50   ~ 0
+Text Label 1650 1300 2    50   ~ 0
 SOLENOID_3
 Wire Wire Line
 	1650 1000 1750 1000
 Wire Wire Line
+	1650 1100 1750 1100
+Wire Wire Line
+	1650 1200 1750 1200
+Wire Wire Line
 	1650 1300 1750 1300
-NoConn ~ 1750 1200
-NoConn ~ 1750 1500
-NoConn ~ 1750 1800
-NoConn ~ 1750 2100
-Wire Wire Line
-	1650 1600 1750 1600
-Wire Wire Line
-	1650 1900 1750 1900
-Text Label 4350 2000 0    50   ~ 0
+Text Label 1650 1400 2    50   ~ 0
 SOLENOID_4
 Wire Wire Line
-	4350 2000 4250 2000
-NoConn ~ 4250 1800
-Text Label 4350 1500 0    50   ~ 0
+	1650 1400 1750 1400
+Text Label 1650 1500 2    50   ~ 0
 SOLENOID_5
 Wire Wire Line
-	4350 1500 4250 1500
-Text Label 1650 2400 2    50   ~ 0
+	1650 1500 1750 1500
+Text Label 1650 1600 2    50   ~ 0
 SOLENOID_6
 Wire Wire Line
-	1650 2400 1750 2400
-NoConn ~ 1750 2600
-Text Label 1650 2700 2    50   ~ 0
+	1650 1600 1750 1600
+Text Label 1650 1700 2    50   ~ 0
 SOLENOID_7
 Wire Wire Line
-	1650 2700 1750 2700
-Text Label 1650 3000 2    50   ~ 0
+	1650 1700 1750 1700
+Text Label 1650 1800 2    50   ~ 0
 SOLENOID_8
 Wire Wire Line
-	1650 3000 1750 3000
-NoConn ~ 1750 2900
-NoConn ~ 1750 3200
-Text Label 4350 3200 0    50   ~ 0
+	1650 1800 1750 1800
+Text Label 1650 1900 2    50   ~ 0
 SOLENOID_9
 Wire Wire Line
-	4350 3200 4250 3200
-NoConn ~ 4250 3000
-Text Label 4350 2900 0    50   ~ 0
+	1650 1900 1750 1900
+Text Label 1650 2000 2    50   ~ 0
 SOLENOID_10
 Wire Wire Line
-	4350 2900 4250 2900
-NoConn ~ 4250 2700
-Text Label 4350 2600 0    50   ~ 0
+	1650 2000 1750 2000
+Text Label 1650 2100 2    50   ~ 0
 SOLENOID_11
 Wire Wire Line
-	4350 2600 4250 2600
-NoConn ~ 4250 2400
-NoConn ~ 4250 1300
+	1650 2100 1750 2100
 Wire Wire Line
 	1750 2200 1650 2200
 Text Label 1650 2200 2    50   ~ 0
@@ -998,18 +984,6 @@ Wire Wire Line
 	4250 2100 4350 2100
 Text Label 4350 2100 0    50   ~ 0
 SYNC
-NoConn ~ 1750 1100
-NoConn ~ 1750 1400
-NoConn ~ 1750 1700
-NoConn ~ 1750 2000
-NoConn ~ 1750 2500
-NoConn ~ 1750 2800
-NoConn ~ 1750 3100
-NoConn ~ 4250 3100
-NoConn ~ 4250 2800
-NoConn ~ 4250 2500
-NoConn ~ 4250 1900
-NoConn ~ 4250 1400
 $Sheet
 S 5650 850  1000 400 
 U 5F238750
@@ -1640,22 +1614,30 @@ F4 "Vled" U R 8650 4950 50
 F5 "SOLENOID" I L 7650 5050 50 
 F6 "TOUCH" U L 7650 5150 50 
 $EndSheet
-NoConn ~ 4250 1200
+Text Label 1650 1200 2    50   ~ 0
+SOLENOID_2
 $Comp
-L lickport_array_module:TEENSY_4.1_HEADERS TEENSY1
-U 1 1 60CBCDD6
+L lickport_array_module:TEENSY_4.0_HEADERS TEENSY1
+U 1 1 60CFEDA7
 P 3000 1550
 F 0 "TEENSY1" H 3000 2447 60  0000 C CNN
-F 1 "TEENSY_4.1_HEADERS" H 3000 2341 60  0000 C CNN
-F 2 "lickport_array_module:TEENSY_4.1_HEADERS" H 3000 2600 60  0001 C CNN
+F 1 "TEENSY_4.0_HEADERS" H 3000 2341 60  0000 C CNN
+F 2 "lickport_array_module:TEENSY_4.0_HEADERS" H 3000 2600 60  0001 C CNN
 F 3 "" H 3050 4300 60  0000 C CNN
 F 4 "Digi-Key" H 3000 2700 60  0001 C CNN "Vendor"
-F 5 "S7057-ND" H 3000 2800 60  0001 C CNN "Vendor Part Number"
-F 6 "CONN HDR 24POS 0.1 GOLD PCB" H 3000 2900 60  0001 C CNN "Description"
+F 5 "S7047-ND" H 3000 2800 60  0001 C CNN "Vendor Part Number"
+F 6 "CONN HDR 14POS 0.1 GOLD PCB" H 3000 2900 60  0001 C CNN "Description"
 F 7 "2" H 3000 1550 50  0001 C CNN "Quantity"
 F 8 "Sullins Connector Solutions" H 3000 1550 50  0001 C CNN "Manufacturer"
-F 9 "PPPC241LFBN-RC" H 3000 1550 50  0001 C CNN "Manufacturer Part Number"
+F 9 "PPPC141LFBN-RC" H 3000 1550 50  0001 C CNN "Manufacturer Part Number"
 	1    3000 1550
 	1    0    0    -1  
 $EndComp
+NoConn ~ 4250 2000
+NoConn ~ 4250 1900
+NoConn ~ 4250 1800
+NoConn ~ 4250 1500
+NoConn ~ 4250 1400
+NoConn ~ 4250 1300
+NoConn ~ 4250 1200
 $EndSCHEMATC
