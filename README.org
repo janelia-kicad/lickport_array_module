@@ -1,4 +1,4 @@
-# Created 2021-06-17 Thu 11:13
+g# Created 2021-06-18 Fri 10:19
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
@@ -81,11 +81,11 @@ lickports. A set of these module boards will be assembled into a larger array.
 
 | Item | Quantity | Manufacturer         | Manufacturer Part Number | Vendor   | Vendor Part Number | Description                      |
 |------+----------+----------------------+--------------------------+----------+--------------------+----------------------------------|
-|    1 |        1 | SparkFun Electronics |                DEV-16997 | Digi-Key | 1568-DEV-16997-ND  | TEENSY 4.0 (HEADERS)             |
-|    2 |        1 | Qualtek              |               3021077-10 | Digi-Key | Q1225-ND           | USB 2.0 A MALE TO USB 2.0 MICRO  |
-|    3 |        1 | CUI Inc.             |          SDI65-24-UDC-P6 | Digi-Key | 102-4891-ND        | AC/DC DESKTOP ADAPTER 24V 65W    |
-|    4 |        1 | Amphenol RF          |            115101-19-120 | Digi-Key | ACX1790-ND         | CBL ASSY BNC PLUG-PLUG RG58 10FT |
-|    5 |       24 | Phoenix Contact      |                  3201301 | Digi-Key | 277-2161-ND        | CONN FERRULE DIN 20AWG ORANGE    |
+|    1 |        1 | SparkFun Electronics | DEV-16997                | Digi-Key | 1568-DEV-16997-ND  | TEENSY 4.0 (HEADERS)             |
+|    2 |        1 | Qualtek              | 3021077-10               | Digi-Key | Q1225-ND           | USB 2.0 A MALE TO USB 2.0 MICRO  |
+|    3 |        1 | CUI Inc.             | SDI65-24-UDC-P6          | Digi-Key | 102-4891-ND        | AC/DC DESKTOP ADAPTER 24V 65W    |
+|    4 |        1 | Amphenol RF          | 115101-19-120            | Digi-Key | ACX1790-ND         | CBL ASSY BNC PLUG-PLUG RG58 10FT |
+|    5 |       24 | Panduit Corp         | FSD73-8-D                | Digi-Key | 298-10557-ND       | CONN FERRULE DIN 24AWG YELLOW    |
 #+TBLFM: $1=@#-1
 
 ** Vendor Parts Lists
