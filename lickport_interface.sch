@@ -374,6 +374,8 @@ F 4 "Digi-Key" V 5130 3300 60  0001 C CNN "Vendor"
 F 5 "P137KLCT-ND" V 5230 3400 60  0001 C CNN "Vendor Part Number"
 F 6 "RES SMD 137K OHM 1% 1/10W" V 5330 3500 60  0001 C CNN "Description"
 F 7 "0402" H 4950 3200 50  0001 C CNN "Package"
+F 8 "Panasonic Electronic Components" H 4950 3200 50  0001 C CNN "Manufacturer"
+F 9 "ERJ-2RKF1373X" H 4950 3200 50  0001 C CNN "Manufacturer Part Number"
 	1    4950 3200
 	1    0    0    -1  
 $EndComp

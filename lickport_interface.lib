@@ -12,6 +12,8 @@ F4 "Digi-Key" 180 100 60 V I C CNN "Vendor"
 F5 "P137KLCT-ND" 280 200 60 V I C CNN "Vendor Part Number"
 F6 "RES SMD 137K OHM 1% 1/10W" 380 300 60 V I C CNN "Description"
 F7 "0402" 0 0 50 H I C CNN "Package"
+F8 "Panasonic Electronic Components" 0 0 50 H I C CNN "Manufacturer"
+F9 "ERJ-2RKF1373X" 0 0 50 H I C CNN "Manufacturer Part Number"
 $FPLIST
  R?
  SM0603

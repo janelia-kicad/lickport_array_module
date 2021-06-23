@@ -629,20 +629,6 @@ TOUCH_11
 Wire Wire Line
 	3600 6150 3650 6150
 $Comp
-L lickport_array_module:PWR_JACK_2.5x5.5_SMD_VERT P1
-U 1 1 60C280A3
-P 1500 4150
-F 0 "P1" H 1500 4300 50  0000 C CNN
-F 1 "PWR_JACK_2.5x5.5_SMD_VERT" V 1600 4150 50  0000 C CNN
-F 2 "lickport_array_module:DCJACK_3PIN_SMD_VERT" H 1400 4200 60  0001 C CNN
-F 3 "" H 1500 4150 60  0000 C CNN
-F 4 "Digi-Key" H 1600 4400 60  0001 C CNN "Vendor"
-F 5 "CP-015BHPJ-CT-ND" H 1700 4500 60  0001 C CNN "Vendor Part Number"
-F 6 "CONN PWR JACK 2.5X5.5MM SOLDER" H 1800 4600 60  0001 C CNN "Description"
-	1    1500 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L user_power:VDD #PWR0103
 U 1 1 60C30FF9
 P 4350 1000
@@ -701,21 +687,6 @@ F 3 "" H 1650 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1650 5550 1650 5600
-$Comp
-L lickport_array_module:0.1uF C3
-U 1 1 60C4BFAF
-P 1000 5750
-F 0 "C3" H 1115 5780 40  0000 L CNN
-F 1 "0.1uF" H 1115 5712 30  0000 L CNN
-F 2 "lickport_interface:SM0402" H 1038 5600 30  0001 C CNN
-F 3 "" H 1000 5750 60  0001 C CNN
-F 4 "Digi-Key" H 1100 5950 60  0001 C CNN "Vendor"
-F 5 "1276-1739-1-ND" H 1200 6050 60  0001 C CNN "Vendor Part Number"
-F 6 "CAP CER 0.1UF 25V Y5V" H 1300 6150 60  0001 C CNN "Description"
-F 7 "0402" H 1000 5750 50  0001 C CNN "Package"
-	1    1000 5750
-	1    0    0    -1  
-$EndComp
 $Comp
 L user_power:VDD #PWR0106
 U 1 1 60C4C391
@@ -1642,4 +1613,37 @@ NoConn ~ 4250 1300
 NoConn ~ 4250 1200
 Text Label 1950 6150 2    50   ~ 0
 RESET
+$Comp
+L lickport_array_module:0.1uF C3
+U 1 1 60D48EB2
+P 1000 5750
+F 0 "C3" H 1115 5780 40  0000 L CNN
+F 1 "0.1uF" H 1115 5712 30  0000 L CNN
+F 2 "lickport_array_module:SM0402" H 1038 5600 30  0001 C CNN
+F 3 "" H 1000 5750 60  0001 C CNN
+F 4 "Digi-Key" H 1100 5950 60  0001 C CNN "Vendor"
+F 5 "311-1375-1-ND" H 1200 6050 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 0.1UF 25V Y5V" H 1300 6150 60  0001 C CNN "Description"
+F 7 "0402" H 1000 5750 50  0001 C CNN "Package"
+F 8 "Yageo" H 1000 5750 50  0001 C CNN "Manufacturer"
+F 9 "CC0402ZRY5V8BB104" H 1000 5750 50  0001 C CNN "Manufacturer Part Number"
+	1    1000 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L lickport_array_module:PWR_JACK_2.5x5.5_SMD_VERT P1
+U 1 1 60D49C93
+P 1500 4150
+F 0 "P1" H 1500 4300 50  0000 C CNN
+F 1 "PWR_JACK_2.5x5.5_SMD_VERT" V 1600 4150 50  0000 C CNN
+F 2 "lickport_array_module:DCJACK_3PIN_SMD_VERT" H 1400 4200 60  0001 C CNN
+F 3 "" H 1500 4150 60  0000 C CNN
+F 4 "Digi-Key" H 1600 4400 60  0001 C CNN "Vendor"
+F 5 "CP-015BHPJ-CT-ND" H 1700 4500 60  0001 C CNN "Vendor Part Number"
+F 6 "CONN PWR JACK 2.5X5.5MM SOLDER" H 1800 4600 60  0001 C CNN "Description"
+F 7 "CUI Devices" H 1500 4150 50  0001 C CNN "Manufacturer"
+F 8 "PJ-015BH-SMT-TR" H 1500 4150 50  0001 C CNN "Manufacturer Part Number"
+	1    1500 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
