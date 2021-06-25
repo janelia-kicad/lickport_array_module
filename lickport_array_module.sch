@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 13
 Title "lickport_array_module"
 Date ""
-Rev "1.0"
+Rev "1.1"
 Comp "Janelia"
 Comment1 ""
 Comment2 ""
@@ -109,23 +109,6 @@ F 3 "" H 10800 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lickport_array_module:10uF C1
-U 1 1 5F0E6C69
-P 2000 4500
-F 0 "C1" H 2050 4600 40  0000 L CNN
-F 1 "10uF" H 2000 4500 30  0000 C CNN
-F 2 "lickport_array_module:SM0805" H 2038 4350 30  0001 C CNN
-F 3 "" H 2000 4500 60  0000 C CNN
-F 4 "Digi-Key" H 2100 4700 60  0001 C CNN "Vendor"
-F 5 "445-14417-1-ND" H 2200 4800 60  0001 C CNN "Vendor Part Number"
-F 6 "CAP CER 10UF 35V X5R" H 2300 4900 60  0001 C CNN "Description"
-F 7 "0805 (2012 Metric)" H 2000 4500 60  0001 C CNN "Package"
-F 8 "TDK Corporation" H 2000 4500 60  0001 C CNN "Manufacturer"
-F 9 "C2012X5R1V106K085AC" H 2000 4500 60  0001 C CNN "Manufacturer Part Number"
-	1    2000 4500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR026
 U 1 1 5F0E6C73
 P 2000 4750
@@ -191,23 +174,6 @@ Wire Wire Line
 Wire Wire Line
 	850  4200 1250 4200
 Connection ~ 1250 4200
-$Comp
-L lickport_array_module:DIODE_SCHOTTKY_45V_10A D1
-U 1 1 5F124F7B
-P 2100 3800
-F 0 "D1" H 2100 3687 50  0000 C CNN
-F 1 "DIODE_SCHOTTKY_45V_10A" H 1820 3720 50  0001 L CNN
-F 2 "lickport_array_module:CFP15" H 1950 3780 60  0001 C CNN
-F 3 "" H 2050 3880 60  0001 C CNN
-F 4 "DIODE SCHOTTKY 45V 10A" H 2350 4180 60  0001 C CNN "Description"
-F 5 "CFP15" H 2100 3800 60  0001 C CNN "Package"
-F 6 "Nexperia USA Inc." H 2100 3800 60  0001 C CNN "Manufacturer"
-F 7 "PMEG045V100EPDZ" H 2100 3800 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Digi-Key" H 2100 3800 60  0001 C CNN "Vendor"
-F 9 "1727-1904-1-ND" H 2100 3800 60  0001 C CNN "Vendor Part Number"
-	1    2100 3800
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:VAA #PWR018
 U 1 1 5F125A1B
@@ -1645,5 +1611,39 @@ F 7 "CUI Devices" H 1500 4150 50  0001 C CNN "Manufacturer"
 F 8 "PJ-015BH-SMT-TR" H 1500 4150 50  0001 C CNN "Manufacturer Part Number"
 	1    1500 4150
 	1    0    0    -1  
+$EndComp
+$Comp
+L lickport_array_module:10uF C1
+U 1 1 60D72EF4
+P 2000 4500
+F 0 "C1" H 2115 4530 40  0000 L CNN
+F 1 "10uF" H 2115 4462 30  0000 L CNN
+F 2 "lickport_array_module:SM0805" H 2038 4350 30  0001 C CNN
+F 3 "" H 2000 4500 60  0000 C CNN
+F 4 "Digi-Key" H 2100 4700 60  0001 C CNN "Vendor"
+F 5 "587-4894-1-ND" H 2200 4800 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 10UF 35V X5R" H 2300 4900 60  0001 C CNN "Description"
+F 7 "0805 (2012 Metric)" H 2000 4500 60  0001 C CNN "Package"
+F 8 "Taiyo Yuden" H 2000 4500 60  0001 C CNN "Manufacturer"
+F 9 "GMK212BBJ106MG-T" H 2000 4500 60  0001 C CNN "Manufacturer Part Number"
+	1    2000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L lickport_array_module:DIODE_SCHOTTKY_45V_10A D1
+U 1 1 60D773D3
+P 2100 3800
+F 0 "D1" H 2100 3687 50  0000 C CNN
+F 1 "DIODE_SCHOTTKY_45V_10A" H 1820 3720 50  0001 L CNN
+F 2 "lickport_array_module:CFP15" H 1950 3780 60  0001 C CNN
+F 3 "" H 2050 3880 60  0001 C CNN
+F 4 "DIODE SCHOTTKY 45V 10A" H 2350 4180 60  0001 C CNN "Description"
+F 5 "CFP15" H 2100 3800 60  0001 C CNN "Package"
+F 6 "Nexperia USA Inc." H 2100 3800 60  0001 C CNN "Manufacturer"
+F 7 "PMEG45U10EPDAZ" H 2100 3800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 2100 3800 60  0001 C CNN "Vendor"
+F 9 "1727-7645-1-ND" H 2100 3800 60  0001 C CNN "Vendor Part Number"
+	1    2100 3800
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

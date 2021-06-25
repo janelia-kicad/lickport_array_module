@@ -1,43 +1,43 @@
-- [Repository Information](#orgac177db)
-  - [Description](#org3f29657)
-- [Images](#orgdfa285a)
-- [Schematic](#org35b9d1a)
-- [Gerbers](#org7cd9ca0)
-- [Bill of Materials](#org218b454)
-  - [PCB Parts](#org0477ff0)
-  - [Supplemental Parts](#org0a125fa)
-  - [Vendor Parts Lists](#orged70875)
-- [Supplemental Documentation](#org30321db)
-  - [Assembly Instructions](#org7ee4a61)
-- [Manufacturing Archive](#org23c8cdb)
+- [Repository Information](#org93a5622)
+  - [Description](#orged12863)
+- [Images](#org59f66be)
+- [Schematic](#orgd93c328)
+- [Gerbers](#org90a0575)
+- [Bill of Materials](#orgd16dace)
+  - [PCB Parts](#orgd11a3c7)
+  - [Supplemental Parts](#org13bd6c5)
+  - [Vendor Parts Lists](#org316a3d6)
+- [Supplemental Documentation](#org85c2034)
+  - [Assembly Instructions](#org5e0da59)
+- [Manufacturing Archive](#org990f72b)
 
 
 
-<a id="orgac177db"></a>
+<a id="org93a5622"></a>
 
 # Repository Information
 
 -   **Name:** lickport\_array\_module
--   **Version:** 1.0
+-   **Version:** 1.1
 -   **License:** Open-Source Hardware
 -   **URL:** <https://github.com/janelia-kicad/lickport_array_module>
 -   **Author:** Peter Polidoro
 -   **Email:** peterpolidoro@gmail.com
 
 
-<a id="org3f29657"></a>
+<a id="orged12863"></a>
 
 ## Description
 
 This module board connects lick sensors and dispense actuators to an array of lickports. A set of these module boards will be assembled into a larger array.
 
 
-<a id="orgdfa285a"></a>
+<a id="org59f66be"></a>
 
 # Images
 
 
-<a id="org35b9d1a"></a>
+<a id="orgd93c328"></a>
 
 # Schematic
 
@@ -70,7 +70,7 @@ This module board connects lick sensors and dispense actuators to an array of li
 ![img](./schematic/images/schematic12.png)
 
 
-<a id="org7cd9ca0"></a>
+<a id="org90a0575"></a>
 
 # Gerbers
 
@@ -79,22 +79,22 @@ This module board connects lick sensors and dispense actuators to an array of li
 ![img](./gerbers/images/gerbers01.png)
 
 
-<a id="org218b454"></a>
+<a id="orgd16dace"></a>
 
 # Bill of Materials
 
 
-<a id="org0477ff0"></a>
+<a id="orgd11a3c7"></a>
 
 ## PCB Parts
 
 | Item | Reference(s)                                                                                                            | Quantity | Manufacturer                    | Manufacturer Part Number | Vendor   | Vendor Part Number   | Description                                 | Package            |
 |---- |----------------------------------------------------------------------------------------------------------------------- |-------- |------------------------------- |------------------------ |-------- |-------------------- |------------------------------------------- |------------------ |
-| 1    | C1                                                                                                                      | 1        | TDK Corporation                 | C2012X5R1V106K085AC      | Digi-Key | 445-14417-1-ND       | CAP CER 10UF 35V X5R                        | 0805 (2012 Metric) |
+| 1    | C1                                                                                                                      | 1        | Taiyo Yuden                     | GMK212BBJ106MG-T         | Digi-Key | 587-4894-1-ND        | CAP CER 10UF 35V X5R                        | 0805 (2012 Metric) |
 | 2    | C10 C12 C14 C16 C18 C20 C22 C24 C26 C4 C6 C8 C2                                                                         | 13       | Vishay Sprague                  | 298D105X0016K2T          | Digi-Key | 718-1618-1-ND        | CAP TANT 1UF 20% 16V                        | 0402               |
 | 3    | C11 C13 C15 C17 C19 C21 C23 C25 C27 C5 C7 C9                                                                            | 12       | Murata Electronics              | GRM155R71H473KE14D       | Digi-Key | 490-10702-1-ND       | CAP CER 0.047UF 50V X7R 0402                | 0402               |
 | 4    | C3                                                                                                                      | 1        | Yageo                           | CC0402ZRY5V8BB104        | Digi-Key | 311-1375-1-ND        | CAP CER 0.1UF 25V Y5V                       | 0402               |
-| 5    | D1                                                                                                                      | 1        | Nexperia USA Inc.               | PMEG045V100EPDZ          | Digi-Key | 1727-1904-1-ND       | DIODE SCHOTTKY 45V 10A                      | CFP15              |
+| 5    | D1                                                                                                                      | 1        | Nexperia USA Inc.               | PMEG45U10EPDAZ           | Digi-Key | 1727-7645-1-ND       | DIODE SCHOTTKY 45V 10A                      | CFP15              |
 | 6    | D10 D12 D14 D16 D18 D20 D22 D24 D26 D4 D6 D8 D2                                                                         | 13       | Diodes Incorporated             | BAS116LPH4-7B            | Digi-Key | BAS116LPH4-7BDICT-ND | DIODE GEN PURP 85V 215MA 2DFN               | 0402               |
 | 7    | D11 D13 D15 D17 D19 D21 D23 D25 D3 D5 D7 D9                                                                             | 12       | Comchip Technology              | CDBQR0230L               | Digi-Key | 641-1275-1-ND        | DIODE SCHOTTKY 30V 200MA                    | 0402               |
 | 8    | L1 L10 L11 L12 L13 L2 L3 L4 L5 L6 L7 L8 L9                                                                              | 13       | Lite-On Inc.                    | LTST-C170GKT             | Digi-Key | 160-1179-1-ND        | LED GREEN CLEAR SMD                         | 0805 (2012 Metric) |
@@ -113,7 +113,7 @@ This module board connects lick sensors and dispense actuators to an array of li
 |      | FID1 FID2 FID3 FID4 MH1 MH10 MH11 MH12 MH13 MH14 MH2 MH3 MH4 MH5 MH6 MH7 MH8 MH9 S1 S10 S11 S12 S2 S3 S4 S5 S6 S7 S8 S9 | 30       |                                 |                          |          |                      |                                             |                    |
 
 
-<a id="org0a125fa"></a>
+<a id="org13bd6c5"></a>
 
 ## Supplemental Parts
 
@@ -126,29 +126,29 @@ This module board connects lick sensors and dispense actuators to an array of li
 | 5    | 24       | Panduit Corp         | FSD73-8-D                | Digi-Key | 298-10557-ND       | CONN FERRULE DIN 24AWG YELLOW    |
 
 
-<a id="orged70875"></a>
+<a id="org316a3d6"></a>
 
 ## Vendor Parts Lists
 
 [./bom/Digi-Key\_parts.csv](./bom/Digi-Key_parts.csv)
 
 
-<a id="org30321db"></a>
+<a id="org85c2034"></a>
 
 # Supplemental Documentation
 
 
-<a id="org7ee4a61"></a>
+<a id="org5e0da59"></a>
 
 ## Assembly Instructions
 
 -   Solder surface mount and through hole components onto the pcb.
 
 
-<a id="org23c8cdb"></a>
+<a id="org990f72b"></a>
 
 # Manufacturing Archive
 
 Send manufacturing zip file to your favorite PCB manufacturer for fabrication.
 
-[./manufacturing/lickport\_array\_module\_v1.0.zip](./manufacturing/lickport_array_module_v1.0.zip)
+[./manufacturing/lickport\_array\_module\_v1.1.zip](./manufacturing/lickport_array_module_v1.1.zip)

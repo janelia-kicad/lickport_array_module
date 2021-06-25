@@ -1,7 +1,7 @@
 * Header                                                           :noexport:
 
   #+MACRO: name lickport_array_module
-  #+MACRO: version 1.0
+  #+MACRO: version 1.1
   #+MACRO: license Open-Source Hardware
   #+MACRO: url https://github.com/janelia-kicad/lickport_array_module
   #+AUTHOR: Peter Polidoro
