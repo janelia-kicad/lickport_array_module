@@ -22,7 +22,7 @@
 -   **License:** Open-Source Hardware
 -   **URL:** <https://github.com/janelia-kicad/lickport_array_module>
 -   **Author:** Peter Polidoro
--   **Email:** peterpolidoro@gmail.com
+-   **Email:** peter@polidoro.io
 
 
 <a id="orged12863"></a>
